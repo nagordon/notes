@@ -1,0 +1,287 @@
+# Notes on engineering
+
+### Open source FEA  
+Trying to find an eopn-source alternative for stress, thermal fea  
+[getfem++](http://download.gna.org/getfem/html/homepage/)  
+[elmer](https://csc.fi/web/elmer/application-examples)  
+[freefem++](https://www.ljll.math.upmc.fr/lehyaric/ffjs/15.6/ffjs.htm)  
+[calculix]()  
+[pycalculix](http://justinablack.com/pycalculix/)  
+[precisesimulation](http://www.precisesimulation.com/)  
+[fenics](http://fenicsproject.org/)  
+[featool](http://www.precisesimulation.com/featool/)  
+[wikipedia list](https://en.wikipedia.org/wiki/List_of_finite_element_software_packages)  
+
+http://www.freebyte.com/cad/fea.htm  
+
+
+### Other FEM
+http://www.roshaz.com/downloads.html
+http://lisafea.com/  
+
+https://arxiv.org/pdf/1404.6391.pdf
+http://ulaff.net/downloads-Spring14.html
+
+http://compmech.lab.asu.edu/data/pyfem.py
+http://www.math.pitt.edu/~sussmanm/3040Summer14/math3040.html
+http://bendingmomentdiagram.com/solve/
+http://www.toysrus.com/product/index.jsp?productId=57582136&cp=2255956.2273442.2255971.2257762.4036204&parentPage=family
+http://www.grc.nasa.gov/WWW/StructuresMaterials/MLP/software/mac-gmc/
+http://www.alphastarcorp.com/intro/index.jsp
+http://analyswift.com/products/gebt-geometrically-exact-beam-theory-for-composite-slender-structures/
+http://hypersizer.com/
+http://www.espcomposites.com/software/software.html
+http://en.cadec-online.com/
+http://www.mathworks.com/matlabcentral/fileexchange/?search_submit=fileexchange&query=composites&term=composites
+https://forceeffect.autodesk.com/frontend/fe.html
+http://www.jetaerospace.org/Gallery/askance_layout_calc.htm
+http://documen.tician.de/meshpy/
+http://mathema.tician.de/software/meshpy/
+http://fenicsproject.org/documentation/dolfin/1.4.0/python/demo/documented/mesh-generation/python/documentation.html
+http://code.nasa.gov/#/  
+http://www.grc.nasa.gov/WWW/StructMech/ICAN/html/ican.choose.html  
+http://www.wolframalpha.com/  
+http://solidmechanics.org/FEA.htm  
+
+https://www.isr.umd.edu/~austin/aladdin.d/psps-cantilever.html  
+http://www.eng.usf.edu/~kaw/compositesOCW/software/index.html  
+http://www.diva-portal.org/smash/get/diva2:566148/fulltext01  
+
+http://sfepy.org/doc-devel/index.htmlhttp://hplgit.github.io/homepage/software.html
+
+http://caelinux.com/CMS/
+
+physics games that can be used to prototype mechanisms
+http://www.algodoo.com/
+http://physion.net/
+http://pymunk.readthedocs.org/en/latest/
+https://forceeffect.autodesk.com/frontend/fe.html
+
+FEA
+http://en.z88.de/
+http://mbi-wiki.uni-wuppertal.de/
+https://www.csc.fi/web/elmer
+http://www.code-aster.org/V2/spip.php?article303
+http://sfepy.org/doc-devel/index.html
+http://download.gna.org/getfem/html/homepage/index.html#what-is-getfem
+http://justinablack.com/pycalculix/
+
+CAE
+https://github.com/PySimulator/PySimulator/
+http://download.gna.org/getfem/html/homepage/
+http://www.salome-platform.org/downloads/previous-versions/salome-v6.6.0
+http://fenicsproject.org/
+
+CAD
+http://www.caelinux.com/CMS/
+http://www.pythonocc.org/
+
+Systems
+http://www.scicos.org/scicosmodelica.html
+http://www.scicos.org/
+http://www.scilab.org/
+https://www.openmodelica.org/
+
+MATLAB/Mathematica Alternative
+https://wiki.python.org/moin/NumericAndScientific
+https://www.gnu.org/software/octave/
+http://freemat.sourceforge.net/
+http://www.scipy.org/
+https://github.com/spacether/pycalculix/
+http://www.mathics.org/
+http://www.sagemath.org/
+http://andrejv.github.io/wxmaxima/
+https://www.gnu.org/software/octave/
+
+CFD
+http://www.mh-aerotools.de/airfoils/javafoil.htm
+
+
+Photo Editing
+GIMP / FIJI
+
+Statistics
+http://statsmodels.sourceforge.net/
+http://www.sofastatistics.com/home.php
+http://www.salstat.com/
+R
+http://pythonhosted.org/pyDOE/
+
+Visualization
+https://github.com/hplgit/pysketcher
+
+http://sfepy.org/doc-devel/index.htmlhttp://hplgit.github.io/homepage/software.html
+
+http://caelinux.com/CMS/
+
+physics games that can be used to prototype mechanisms
+http://www.algodoo.com/
+http://physion.net/
+http://pymunk.readthedocs.org/en/latest/
+https://forceeffect.autodesk.com/frontend/fe.html
+
+FEA
+http://en.z88.de/
+http://mbi-wiki.uni-wuppertal.de/
+https://www.csc.fi/web/elmer
+http://www.code-aster.org/V2/spip.php?article303
+http://sfepy.org/doc-devel/index.html
+http://download.gna.org/getfem/html/homepage/index.html#what-is-getfem
+http://justinablack.com/pycalculix/
+
+CAE
+https://github.com/PySimulator/PySimulator/
+http://download.gna.org/getfem/html/homepage/
+http://www.salome-platform.org/downloads/previous-versions/salome-v6.6.0
+http://fenicsproject.org/
+
+CAD
+http://www.caelinux.com/CMS/
+http://www.pythonocc.org/
+
+Systems
+http://www.scicos.org/scicosmodelica.html
+http://www.scicos.org/
+http://www.scilab.org/
+https://www.openmodelica.org/
+
+MATLAB/Mathematica Alternative
+https://wiki.python.org/moin/NumericAndScientific
+https://www.gnu.org/software/octave/
+http://freemat.sourceforge.net/
+http://www.scipy.org/
+https://github.com/spacether/pycalculix/
+http://www.mathics.org/
+http://www.sagemath.org/
+http://andrejv.github.io/wxmaxima/
+https://www.gnu.org/software/octave/
+
+CFD
+http://www.mh-aerotools.de/airfoils/javafoil.htm
+
+
+Photo Editing
+GIMP / FIJI
+
+Statistics
+http://statsmodels.sourceforge.net/
+http://www.sofastatistics.com/home.php
+http://www.salstat.com/
+R
+http://pythonhosted.org/pyDOE/
+
+Visualization
+https://github.com/hplgit/pysketcher
+
+
+
+## Math / engineering
+* Python
+ * [femhub](https://code.google.com/p/femhub/)
+ * [scipy](http://www.scipy.org/)
+* [Sage](http://www.sagemath.org/) or [sagecloud](https://cloud.sagemath.com/projects)
+
+## Engineering / CAD / FEA
+
+### FEA
+* [femap](http://www.plm.automation.siemens.com/en_us/products/femap/features/index.shtml)
+* Dassault-CATIA-Simulia
+* Dassault-Abaqus
+* Siemens FEMAP with NX NASTRAN
+
+### Composites
+* [CATIA-CPD(Composites Part Design)](http://www.3ds.com/products-services/catia/capabilities/composites-engineering/) and [CATIA Composites FEA](http://www.3ds.com/products-services/catia/products/v5/portfolio/domain/Analysis/product/EST/)
+* [alphastar](http://www.alphastarcorp.com/intro/index.jsp)
+* [Composite Engineering Environment (CEE) module in the Fibersim portfolio](http://www.plm.automation.siemens.com/en_us/products/fibersim/fibersim-overview.shtml)
+* [Hypersizer](http://hypersizer.com/products/what-is-hypersizer.php)
+* [Altair](http://www.altairhyperworks.com/Solutions,1,13,Composites.aspx)
+* [Siemens FiberSim](http://www.plm.automation.siemens.com/en_us/products/fibersim/fibersim-overview.shtml), 
+* [Abaqus](http://www.3ds.com/products-services/simulia/products/abaqus/add-ons/composites-modeler-for-abaquscae/), 
+* http://www.convergent.ca/products/raven-simulation-software
+
+### Multi-physics
+* [hyperworks](http://www.altairhyperworks.com/hw13/)
+* [MSC-Adams](http://www.mscsoftware.com/product/adams)
+* [CATIA-Abaqus](http://www.3ds.com/products-services/simulia/products/abaqus/multiphysics/)
+* 
+
+## Aero
+* [avl](http://web.mit.edu/drela/Public/web/avl/)
+* [javafoil](http://www.mh-aerotools.de/airfoils/javafoil.htm)
+* 
+
+
+# Composites
+
+## Sandwich Laminates
+
+https://en.wikipedia.org/wiki/Sandwich_theory  
+
+http://www.mse.mtu.edu/~drjohn/my4150/sandwich/sp2.html  
+
+http://www.hexcel.com/resources/datasheets/brochure-data-sheets/honeycomb_sandwich_design_technology.pdf  
+
+
+# Aero Engineering
+
+
+# Aero Engineering Notes	
+
+## online courses  
+https://ocw.tudelft.nl/courses/advanced-design-optimization-composite-structures/  
+http://ocw.mit.edu/courses/mechanical-engineering/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/  
+http://ocw.mit.edu/courses/aeronautics-and-astronautics/  
+
+
+## other stuff  
+http://cdn.fibreglast.com/downloads/00339-A.pdf  
+http://www.mh-aerotools.de/airfoils/flywing1.htm  
+https://www.av8n.com/how/htm/airfoils.html  
+
+
+## material databases  
+http://www.niar.wichita.edu/agate/  
+http://www.niar.wichita.edu/coe/ncampdocs.asp  
+
+http://www.darcorp.com/Books/
+
+http://ocw.mit.edu/courses/aeronautics-and-astronautics/
+
+http://solidmechanics.org/
+
+http://lorenabarba.com/news/announcing-practical-numerical-methods-with-python-mooc/
+http://lorenabarba.com/blog/announcing-aeropython/
+
+http://www.grc.nasa.gov/WWW/K-12/airplane/
+
+https://courses.edx.org/courses/course-v1:TUMx+AUTONAVx+2T2015/courseware/535451105f364d2e852366ed8204cf68/0dfbcaaa4547460f80474a0918a70016/
+
+https://courses.edx.org/courses/course-v1:TUMx+AUTONAVx+2T2015/info
+
+https://cdmhub.org/
+
+http://www.malloybooks.com/product133.html
+
+http://web.mit.edu/drela/Public/web/avl/
+
+http://www.grc.nasa.gov/WWW/StructMech/ICAN/html/ican.choose.html
+
+https://github.com/SteveDoyle2/pynastran/wiki/GUI
+
+https://github.com/barbagroup/AeroPython
+
+http://www.cambridge.org/gb/knowledge/isbn/item2705159/?site_locale=en_GB
+
+http://www.doitpoms.ac.uk/tlplib/fibre_composites/index.php
+
+http://www.espcomposites.com/
+
+http://www.grc.nasa.gov/WWW/StructuresMaterials/MLP/software/mac-gmc/index.html
+
+http://www.mh-aerotools.de/airfoils/index.htm
+
+http://www.mh-aerotools.de/airfoils/pylondev.htm
+
+http://www.mh-aerotools.de/airfoils/prpstati.htm
+
+http://www.mh-aerotools.de/airfoils/pylonprops_1.htm#F3DOptimumPropeller
