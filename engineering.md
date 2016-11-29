@@ -4,6 +4,15 @@
 
 ## engineering software
 
+### python  engineering libraries
+
+http://pyne.io/  
+http://aeropy.readthedocs.io/en/latest/  
+https://github.com/nagordon/mechpy
+https://github.com/barbagroup/CFDPython
+http://www.coolprop.org/
+
+
 ### Open source FEA  
  * Trying to find an eopn-source alternative for stress, thermal fea  
  * [getfem++](http://download.gna.org/getfem/html/homepage/)  
@@ -71,12 +80,16 @@
  * http://www.caelinux.com/CMS/  
  * http://www.pythonocc.org/  
 
+ 
+ 
 ### Systems  
  * http://www.scicos.org/scicosmodelica.html  
  * http://www.scicos.org/  
  * http://www.scilab.org/  
  * https://www.openmodelica.org/  
 
+ 
+ 
 ### MATLAB/Mathematica Alternative  
  * https://wiki.python.org/moin/NumericAndScientific  
  * https://www.gnu.org/software/octave/  
@@ -88,6 +101,16 @@
  * http://andrejv.github.io/wxmaxima/  
  * https://www.gnu.org/software/octave/  
  * https://cloud.sagemath.com/projects
+
+### Solids
+ * http://structx.com/  
+ * http://www.libremechanics.com/
+
+### optimization-composite-structures
+ * http://pymprog.sourceforge.net/ 
+ * https://pythonhosted.org/PuLP/main/amply.html
+ 
+ 
 
 ### Fluids    
  * http://www.mh-aerotools.de/airfoils/javafoil.htm  
@@ -124,12 +147,16 @@
  * http://solidmechanics.org/
  * https://cdmhub.org/
 
+ 
+ 
 ### Multi-physics
  * [hyperworks](http://www.altairhyperworks.com/hw13/)
  * [MSC-Adams](http://www.mscsoftware.com/product/adams)
  * [CATIA-Abaqus](http://www.3ds.com/products-services/simulia/products/abaqus/multiphysics/)
 
- * ## online courses  
+ 
+ 
+### online courses  
  * https://ocw.tudelft.nl/courses/advanced-design-optimization-composite-structures/  
  * http://ocw.mit.edu/courses/mechanical-engineering/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/  
  * http://ocw.mit.edu/courses/aeronautics-and-astronautics/  
@@ -137,31 +164,37 @@
  * https://courses.edx.org/courses/course-v1:TUMx+AUTONAVx+2T2015/info
  * http://lorenabarba.com/news/announcing-practical-numerical-methods-with-python-mooc/
  * http://ocw.mit.edu/courses/aeronautics-and-astronautics/
-  
-  
- ## material databases  
+ * https://github.com/barbagroup/AeroPython
+ 
+ 
+ 
+### material databases  
  * http://www.niar.wichita.edu/agate/  
  * http://www.niar.wichita.edu/coe/ncampdocs.asp  
  * http://cdn.fibreglast.com/downloads/00339-A.pdf  
   
   
   
- ## general reference
+### general reference
  * http://www.darcorp.com/Books/
  * http://www.grc.nasa.gov/WWW/K-12/airplane/
  * http://www.malloybooks.com/product133.html
  * https://www.av8n.com/how/htm/airfoils.html  
   
   
- ### physics games that can be used to prototype mechanisms
+### physics games that can be used to prototype mechanisms
  * http://www.algodoo.com/  
  * http://physion.net/  
  * http://pymunk.readthedocs.org/en/latest/  
  * https://forceeffect.autodesk.com/frontend/fe.html  
 
- ### Photo Editing
+ 
+ 
+### Photo Editing
  * https://www.gimp.org/  
  * https://fiji.sc/  
+ 
+ 
  
 ### Statistics
  * http://statsmodels.sourceforge.net/  
@@ -169,6 +202,8 @@
  * http://www.salstat.com/  
  * https://www.r-project.org/  
  * http://pythonhosted.org/pyDOE/  
+ 
+ 
  
 ### Visualization  
  * https://github.com/hplgit/pysketcher  
