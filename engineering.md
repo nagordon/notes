@@ -6,11 +6,11 @@
 
 ### python  engineering libraries
 
-http://pyne.io/  
-http://aeropy.readthedocs.io/en/latest/  
-https://github.com/nagordon/mechpy
-https://github.com/barbagroup/CFDPython
-http://www.coolprop.org/
+ * http://pyne.io/  
+ * http://aeropy.readthedocs.io/en/latest/  
+ * https://github.com/nagordon/mechpy
+ * https://github.com/barbagroup/CFDPython
+ * http://www.coolprop.org/
 
 
 ### Open source FEA  
@@ -104,6 +104,7 @@ http://www.coolprop.org/
 
 ### Solids
  * http://structx.com/  
+ * https://mechanicalc.com/
  * http://www.libremechanics.com/
 
 ### optimization-composite-structures
