@@ -104,6 +104,7 @@
 
 ### Solids
  * http://www.engineeringcalculator.net/index.html
+ * http://www.doitpoms.ac.uk/tlplib/metal-forming-1/index.php
  * http://structx.com/  
  * https://mechanicalc.com/
  * http://www.libremechanics.com/
