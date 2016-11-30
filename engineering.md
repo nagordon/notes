@@ -13,6 +13,18 @@
  * http://www.coolprop.org/
 
 
+### Solids
+
+#### online structures widgets
+ * http://www.engineeringcalculator.net/index.html
+ * http://www.doitpoms.ac.uk/tlplib/metal-forming-1/index.php
+ * http://structx.com/  
+ * https://mechanicalc.com/
+ * http://www.libremechanics.com/
+ * http://tbc-python.fossee.in/book-details/381/
+ 
+ 
+
 ### Open source FEA  
  * Trying to find an eopn-source alternative for stress, thermal fea  
  * [getfem++](http://download.gna.org/getfem/html/homepage/)  
@@ -102,14 +114,9 @@
  * https://www.gnu.org/software/octave/  
  * https://cloud.sagemath.com/projects
 
-### Solids
- * http://www.engineeringcalculator.net/index.html
- * http://www.doitpoms.ac.uk/tlplib/metal-forming-1/index.php
- * http://structx.com/  
- * https://mechanicalc.com/
- * http://www.libremechanics.com/
 
-### optimization-composite-structures
+
+### optimization
  * http://pymprog.sourceforge.net/ 
  * https://pythonhosted.org/PuLP/main/amply.html
  
