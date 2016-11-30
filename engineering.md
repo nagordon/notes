@@ -103,6 +103,7 @@
  * https://cloud.sagemath.com/projects
 
 ### Solids
+ * http://www.engineeringcalculator.net/index.html
  * http://structx.com/  
  * https://mechanicalc.com/
  * http://www.libremechanics.com/
