@@ -22,6 +22,7 @@
  * https://mechanicalc.com/
  * http://www.libremechanics.com/
  * http://tbc-python.fossee.in/book-details/381/
+ * http://www.continuummechanics.org/
  
  
 
