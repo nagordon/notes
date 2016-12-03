@@ -23,6 +23,7 @@
  * http://www.libremechanics.com/
  * http://tbc-python.fossee.in/book-details/381/
  * http://www.continuummechanics.org/
+ * http://en.cadec-online.com/Default.aspx
  
  
 
