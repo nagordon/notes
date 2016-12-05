@@ -24,8 +24,31 @@
  * http://tbc-python.fossee.in/book-details/381/
  * http://www.continuummechanics.org/
  * http://en.cadec-online.com/Default.aspx
+
+### online courses  
+ * https://ocw.mit.edu/courses/aeronautics-and-astronautics/
+  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-90-computational-methods-in-aerospace-engineering-spring-2014/
+  * https://ocw.mit.edu/courses/mechanical-engineering/2-081j-plates-and-shells-spring-2007/
+  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/
+  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/
+  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-20-structural-mechanics-fall-2002/
+ * https://ocw.tudelft.nl/courses/advanced-design-optimization-composite-structures/  
+ * http://ocw.mit.edu/courses/mechanical-engineering/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/  
+ * https://courses.edx.org/courses/course-v1:TUMx+AUTONAVx+2T2015/courseware/535451105f364d2e852366ed8204cf68/0dfbcaaa4547460f80474a0918a70016/
+ * https://courses.edx.org/courses/course-v1:TUMx+AUTONAVx+2T2015/info
+ * http://lorenabarba.com/news/announcing-practical-numerical-methods-with-python-mooc/
+ * http://ocw.mit.edu/courses/aeronautics-and-astronautics/
+ * https://github.com/barbagroup/AeroPython  
+ * http://www.handbook.unsw.edu.au/undergraduate/courses/2015/AERO3410.html
+  * https://www.youtube.com/channel/UCCDa0i043Cr0hVJAL_vFeQA
  
  
+### material databases  
+ * http://www.niar.wichita.edu/agate/  
+ * http://www.niar.wichita.edu/coe/ncampdocs.asp  
+ * http://cdn.fibreglast.com/downloads/00339-A.pdf  
+ 
+
 
 ### Open source FEA  
  * Trying to find an eopn-source alternative for stress, thermal fea  
@@ -168,27 +191,7 @@
 
  
  
-### online courses  
- * https://ocw.mit.edu/courses/aeronautics-and-astronautics/
-  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-90-computational-methods-in-aerospace-engineering-spring-2014/
-  * https://ocw.mit.edu/courses/mechanical-engineering/2-081j-plates-and-shells-spring-2007/
-  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/
-  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/
-  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-20-structural-mechanics-fall-2002/
- * https://ocw.tudelft.nl/courses/advanced-design-optimization-composite-structures/  
- * http://ocw.mit.edu/courses/mechanical-engineering/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/  
- * https://courses.edx.org/courses/course-v1:TUMx+AUTONAVx+2T2015/courseware/535451105f364d2e852366ed8204cf68/0dfbcaaa4547460f80474a0918a70016/
- * https://courses.edx.org/courses/course-v1:TUMx+AUTONAVx+2T2015/info
- * http://lorenabarba.com/news/announcing-practical-numerical-methods-with-python-mooc/
- * http://ocw.mit.edu/courses/aeronautics-and-astronautics/
- * https://github.com/barbagroup/AeroPython
- 
- 
- 
-### material databases  
- * http://www.niar.wichita.edu/agate/  
- * http://www.niar.wichita.edu/coe/ncampdocs.asp  
- * http://cdn.fibreglast.com/downloads/00339-A.pdf  
+
   
   
   
