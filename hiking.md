@@ -1,4 +1,10 @@
 
+## Hikes I want to do
+
+http://goldentroutwilderness.wordpress.com/  
+http://domelandwilderness.wordpress.com/  
+http://jennielakeswilderness.wordpress.com/  
+
 
 The Cactus to Clouds Trail near Palm Springs, number 5 on this list of America’s hardest dayhikes:  
 http://www.backpacker.com/trips/wyoming/grand-teton-national-park/america-s-hardest-dayhikes/3/  
