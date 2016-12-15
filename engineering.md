@@ -42,6 +42,9 @@
  * http://www.handbook.unsw.edu.au/undergraduate/courses/2015/AERO3410.html
   * https://www.youtube.com/channel/UCCDa0i043Cr0hVJAL_vFeQA
  
+### webinars
+* https://structures.aero/webinars/
+* http://appliedcax.com/resources-and-support
  
 ### material databases  
  * http://www.niar.wichita.edu/agate/  
