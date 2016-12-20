@@ -8,9 +8,10 @@
 
  * http://pyne.io/  
  * http://aeropy.readthedocs.io/en/latest/  
- * https://github.com/nagordon/mechpy
  * https://github.com/barbagroup/CFDPython
- * http://www.coolprop.org/
+ * http://lorenabarba.com/blog/announcing-aeropython/
+ * http://www.astropy.org/
+ * https://github.com/nagordon/mechpy 
 
 
 ### Solids
@@ -162,6 +163,7 @@
  * http://web.mit.edu/drela/Public/web/avl/
  * http://lorenabarba.com/blog/announcing-aeropython/
  * http://www.mh-aerotools.de/airfoils/flywing1.htm  
+ * http://www.coolprop.org/
 
 
 
