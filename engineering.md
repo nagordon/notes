@@ -26,6 +26,9 @@
  * http://www.continuummechanics.org/
  * http://en.cadec-online.com/Default.aspx
 
+### aero
+ * http://www.openvsp.org/
+
 ### online courses  
  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/
   * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-90-computational-methods-in-aerospace-engineering-spring-2014/
