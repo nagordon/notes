@@ -28,6 +28,7 @@
 
 ### aero
  * http://www.openvsp.org/
+ * https://github.com/TMacquart/OptiBLESS
 
 ### online courses  
  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/
