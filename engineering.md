@@ -46,9 +46,11 @@
  * http://www.handbook.unsw.edu.au/undergraduate/courses/2015/AERO3410.html
   * https://www.youtube.com/channel/UCCDa0i043Cr0hVJAL_vFeQA
  
-### webinars
+### webinars / videos
 * https://structures.aero/webinars/
 * http://appliedcax.com/resources-and-support
+* [Siemens PLM](https://www.youtube.com/channel/UCYR5Kgzn6suihs56iJ8_vfw)
+* [Hypersizer](https://www.youtube.com/channel/UCj0l0H5t44pQcwBLycViIGA)
  
 ### material databases  
  * http://www.niar.wichita.edu/agate/  
