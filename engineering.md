@@ -57,7 +57,8 @@
  * http://www.niar.wichita.edu/coe/ncampdocs.asp  
  * http://cdn.fibreglast.com/downloads/00339-A.pdf  
  
-
+### optimiaztion
+ * http://openmdao.org/
 
 ### Open source FEA  
  * Trying to find an eopn-source alternative for stress, thermal fea  
