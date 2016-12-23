@@ -1,7 +1,5 @@
 # Notes on anything engineering
 
-
-
 ## engineering software
 
 ### python  engineering libraries
@@ -172,8 +170,6 @@
  * http://www.mh-aerotools.de/airfoils/flywing1.htm  
  * http://www.coolprop.org/
 
-
-
 ### Composites
  * [CATIA-CPD(Composites Part Design)](http://www.3ds.com/products-services/catia/capabilities/composites-engineering/) and [CATIA Composites FEA](http://www.3ds.com/products-services/catia/products/v5/portfolio/domain/Analysis/product/EST/)
  * [alphastar](http://www.alphastarcorp.com/intro/index.jsp)
@@ -187,13 +183,12 @@
  * http://www.mse.mtu.edu/~drjohn/my4150/sandwich/sp2.html  
  * http://www.hexcel.com/resources/datasheets/brochure-data-sheets/honeycomb_sandwich_design_technology.pdf  
  * http://www.cambridge.org/gb/knowledge/isbn/item2705159/?site_locale=en_GB
- * http://www.doitpoms.ac.uk/tlplib/fibre_composites/index.php
  * http://www.espcomposites.com/
  * http://www.grc.nasa.gov/WWW/StructuresMaterials/MLP/software/mac-gmc/index.html
  * http://www.grc.nasa.gov/WWW/StructMech/ICAN/html/ican.choose.html
  * http://solidmechanics.org/
  * https://cdmhub.org/
-
+ * [cambridge mechanics doitpoms](http://www.doitpoms.ac.uk/tlplib/fibre_composites/)
  
  
 ### Multi-physics
@@ -201,11 +196,11 @@
  * [MSC-Adams](http://www.mscsoftware.com/product/adams)
  * [CATIA-Abaqus](http://www.3ds.com/products-services/simulia/products/abaqus/multiphysics/)
 
- 
- 
 
-  
-  
+## Electronics
+* http://www.falstad.com/circuit/
+* https://www.partsim.com/simulator#
+* http://www.linear.com/designtools/software/?gclid=Cj0KEQiAkO7CBRDeqJ_ahuiPrtEBEiQAbYupJaur7nbD6UX8rtHnKY-VnGjKYus6kS53vh5aVczSePgaAkHB8P8HAQ#LTspice
   
 ### general reference
  * http://www.darcorp.com/Books/
@@ -220,13 +215,9 @@
  * http://pymunk.readthedocs.org/en/latest/  
  * https://forceeffect.autodesk.com/frontend/fe.html  
 
- 
- 
 ### Photo Editing
  * https://www.gimp.org/  
  * https://fiji.sc/  
- 
- 
  
 ### Statistics
  * http://statsmodels.sourceforge.net/  
@@ -241,3 +232,8 @@
  * https://github.com/hplgit/pysketcher  
  * http://sfepy.org/doc-devel/index.htmlhttp://hplgit.github.io/homepage/software.html  
  * http://caelinux.com/CMS/  
+
+
+### Sundries
+* https://github.com/nagordon/ME701
+* https://github.com/nagordon/mcgill_mech_530_selimb
