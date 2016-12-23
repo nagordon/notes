@@ -181,7 +181,8 @@
  * http://www.convergent.ca/products/raven-simulation-software
  * https://en.wikipedia.org/wiki/Sandwich_theory  
  * http://www.mse.mtu.edu/~drjohn/my4150/sandwich/sp2.html  
- * http://www.hexcel.com/resources/datasheets/brochure-data-sheets/honeycomb_sandwich_design_technology.pdf  
+ * http://www.h
+ .com/resources/datasheets/brochure-data-sheets/honeycomb_sandwich_design_technology.pdf  
  * http://www.cambridge.org/gb/knowledge/isbn/item2705159/?site_locale=en_GB
  * http://www.espcomposites.com/
  * http://www.grc.nasa.gov/WWW/StructuresMaterials/MLP/software/mac-gmc/index.html
@@ -226,6 +227,10 @@
  * https://www.r-project.org/  
  * http://pythonhosted.org/pyDOE/  
  
+ ## Spreadsheets
+ * https://www.libreoffice.org/discover/calc/
+ * https://github.com/na-ka-na/ExcelCompare
+ * https://manns.github.io/pyspread/
  
  
 ### Visualization  
