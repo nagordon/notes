@@ -115,6 +115,15 @@
  * Dassault-CATIA-Simulia  
  * Dassault-Abaqus  
  * Siemens FEMAP with NX NASTRAN  
+ * http://www.bconverged.com/
+ * https://www.csc.fi/web/elmer
+ * https://febio.org/
+ * http://www.felipe.co.uk/
+ * http://felt.sourceforge.net/
+ * https://sourceforge.net/projects/femta/
+ * http://www.freefem.org/
+ * http://m3d.org.uk/Examples.htm
+ 
 
 
 
