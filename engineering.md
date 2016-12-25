@@ -237,7 +237,7 @@
  * https://github.com/hplgit/pysketcher  
  * http://sfepy.org/doc-devel/index.htmlhttp://hplgit.github.io/homepage/software.html  
  * http://caelinux.com/CMS/  
-
+ * http://matplotlib.org/users/beginner.html
 
 ### Sundries
 * https://github.com/nagordon/ME701
