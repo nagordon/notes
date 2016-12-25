@@ -219,6 +219,7 @@
 ### Photo Editing
  * https://www.gimp.org/  
  * https://fiji.sc/  
+ * [extract data from images](http://markummitchell.github.io/engauge-digitizer/)
  
 ### Statistics
  * http://statsmodels.sourceforge.net/  
