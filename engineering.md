@@ -253,3 +253,7 @@
 ### Sundries
 * https://github.com/nagordon/ME701
 * https://github.com/nagordon/mcgill_mech_530_selimb
+
+
+## python numerics
+* http://www.labri.fr/perso/nrougier/from-python-to-numpy/
