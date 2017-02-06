@@ -53,6 +53,11 @@
 * [Siemens PLM](https://www.youtube.com/channel/UCYR5Kgzn6suihs56iJ8_vfw)
 * [Hypersizer](https://www.youtube.com/channel/UCj0l0H5t44pQcwBLycViIGA)
  
+#### FEMAP API
+* http://www.learningfea.com/2015/01/introduction-to-programming-with-the-femap-api-webinar-recording-available/
+* https://structures.aero/blog/femap-api/
+* 
+ 
 ### material databases  
  * http://www.niar.wichita.edu/agate/  
  * http://www.niar.wichita.edu/coe/ncampdocs.asp  
