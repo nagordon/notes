@@ -28,6 +28,7 @@
  * http://www.openvsp.org/
  * https://github.com/TMacquart/OptiBLESS
  * https://femci.gsfc.nasa.gov/hcplate/
+ * http://www.xflr5.com
 
 ### online courses  
  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/
