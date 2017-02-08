@@ -1,0 +1,144 @@
+\documentclass[10pt]{article}
+\usepackage{vmargin}
+\usepackage{calc}
+
+
+% Set the margins to 1in per proposal request
+%
+\setpapersize{USletter}
+\setmarginsrb{1in}{1in}{1in}{1in}{0pt}{0mm}{0pt}{0mm}
+\pagestyle{plain}
+
+% Now set lines per page to 66
+%
+%\setlength{\textheight}{\baselineskip*65+\topskip}
+
+\begin{document}
+
+\title{Secure Distributed Heterogeneous Systems Management via Confederations and Oracles}
+\author{William A. Arbaugh \\
+	Department of Computer Science \\ 
+	\and 
+	Virgil D. Gligor \\
+	Department of Electrical Engineering \\ 
+	\\ 
+	University of Maryland \\ 
+	College Park, Maryland 20742 }
+\date{}
+\maketitle
+
+\section{Introduction}
+
+The tremendous growth rate of the use of information technology has
+exacerbated the problem of effectively managing and securing the
+resultant information infrastructure. This coupled with the fact that
+the current state of the art in security is essentially "penetrate and
+patch" has created a situation where information technology is more
+vulnerable than ever\cite{Oakland-consensus}. The vulnerability of
+information technology is demonstrated by the large number of news
+stories relating to wide-spread computer intrusions as well as
+controlled network scanning\cite{drogin99}\cite{IAP}. For instance,
+the U.S. General Accounting Office released a report detailing
+scanning efforts by the U.S. Defense Information Systems Agency
+(DISA)\cite{GAO96}. During a three year period (1992-1995), DISA
+probed 38,000 different hosts for vulnerabilities finding 65\% of all
+hosts vulnerable. While the GAO report did not specify what
+vulnerabilities DISA used to attack the military hosts, they likely
+used known vulnerabilities.
+
+While previous studies and anecdotal evidence have demonstrated the
+increasing vulnerability of information technology, information
+security research is currently primarily focused on the underlying
+{\it security technology} rather than the secure management of the
+information technology. Yet, the tremendous growth in the use of
+information technology and it's rate of change creates a configuration
+and systems management nightmare that amplifies existing security
+problems, and also introduces new security problems as well. Current
+approaches for solving this complex problem are {\it ad hoc} and do
+not scale well. In this research, we will attack this situation by
+conducting a broad examination of distributed heterogeneous
+configuration and security management from both a theoretical and a
+systems approach. Ensuring that our approach scales and is based upon
+a formal representation.
+
+In the remainder of this white paper, we first present our research
+objectives followed by our proposed technical approach. Next, the
+expected outcome and impact of the research is discussed. Finally, we
+conclude the paper.
+
+\section{Research Objectives}
+
+We have three primary research objectives:
+\begin{enumerate}
+
+\item XXXXX Virgil change this as needed XXXXX Develop a formal
+calculus for representing and reasoning about the configuration of
+distributed heterogeneous systems with respect to time.
+
+\item Leveraging the calculus developed above- design and prototype a
+system for a scalable and secure distributed heterogeneous systems
+management that permits a range of manageability from fully automated
+to fully manual. Additionally, the system will permit readiness
+information to flow to parent organizations.
+
+\item Investigate technology and methodologies for ensuring the state
+of an information system is as expected, i.e. a robust distributed
+independent audit capability.
+
+\end{enumerate}
+
+\section{Technical Approach}
+
+The first step in any research project is to understand the problem,
+and develop a formal model. The formal model provides the ability to
+reason about the domain, and serve as a sound basis for the systems
+engineering solution. Finally, once a solution is implemented an
+enforcement or auditing process is required to ensure that the system
+works as expected. Our technical approach will follow this
+methodology. 
+
+\subsection{Formalization of Secure Distributed Hetergeneous Management}
+\include{virgil}
+
+\subsection{Methods for Secure Distributed Hetergeneous Management}
+
+XXXXX Discuss concept of confederations and information flows XXXXX
+
+\subsection{Enforcement of Configuration Management}
+
+XXXXX Komoku as an heterogeneous independent auditor XXXXXXXXX
+
+\section{Expected Outcome and Impact of Research}
+
+XXXX Must mention impact on University's Research in support of DOD
+
+XXXX Must mention Impact on University's Teaching
+
+\section{Conclusions}
+
+\appendix
+
+\section{Cost break down by year}
+The estimated costs for this research are shown in
+Table~\ref{table:costs}.
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Year 1 & \$600,000 \\ \hline
+Year 2 & \$600,000 \\ \hline
+Year 3 & \$600,000 \\ \hline
+Year 4 & \$600,000 \\ \hline
+Year 5 & \$600,000 \\ \hline
+\end{tabular}
+\end{center}
+\label{table:costs}
+\caption{Estimated costs by year}
+\end{table}
+
+
+\bibliographystyle{ieeetr}
+\bibliography{onr}
+
+\end{document}

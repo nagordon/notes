@@ -1,0 +1,418 @@
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+
+ 
+ 
+ <!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link rel="icon" type="image/vnd.microsoft.icon" href="https://ssl.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ 
+ <link rel="canonical" href="https://code.google.com/p/boar/wiki/CommandReference" />
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ 
+ var codesite_token = "ABZ6GAdh52niQrZsdm0FIB-50brpfGQsIA:1442450405202";
+ 
+ 
+ var CS_env = {"assetHostPath": "https://ssl.gstatic.com/codesite/ph", "token": "ABZ6GAdh52niQrZsdm0FIB-50brpfGQsIA:1442450405202", "domainName": null, "assetVersionPath": "https://ssl.gstatic.com/codesite/ph/13998957996356775390", "relativeBaseUrl": "", "profileUrl": "/u/116115444409012239252/", "projectHomeUrl": "/p/boar", "loggedInUserEmail": "gordon.363@gmail.com", "projectName": "boar"};
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-348222-4'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ 
+ </script>
+ 
+ 
+ <title>CommandReference - 
+ boar -
+ 
+ All the commands - 
+ Simple version control and backup for photos, videos and other binary files - Google Project Hosting
+ </title>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/13998957996356775390/css/core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/13998957996356775390/css/ph_detail.css" >
+ 
+ 
+ 
+ <link type="application/atom+xml" rel="alternate" href="/feeds/p/boar/hgchanges/basic?path=/CommandReference.wiki&amp;repo=wiki">
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="https://ssl.gstatic.com/codesite/ph/13998957996356775390/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(https://ssl.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ 
+ 
+ #maincol {
+ padding-top: 0;
+ padding-bottom: 0;
+ }
+
+ 
+ </style>
+</head>
+<body class="t6">
+<script type="text/javascript">
+ window.___gcfg = {lang: 'en'};
+ (function() 
+ {var po = document.createElement("script");
+ po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+ var s = document.getElementsByTagName("script")[0];
+ s.parentNode.insertBefore(po, s);
+ })();
+</script>
+<div class="headbg">
+
+ <div id="gaia">
+ 
+
+ <span>
+ 
+ 
+ 
+ <a href="#" id="multilogin-dropdown" onclick="return false;"
+ ><u><b>gordon.363@gmail.com</b></u> <small>&#9660;</small></a>
+ 
+ 
+ | <a href="/u/116115444409012239252/" id="projects-dropdown" onclick="return false;"
+ ><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="/u/116115444409012239252/" onclick="_CS_click('/gb/ph/profile');"
+ title="Profile, Updates, and Settings"
+ ><u>Profile</u></a>
+ | <a href="https://www.google.com/accounts/Logout?continue=https%3A%2F%2Fcode.google.com%2Fp%2Fboar%2Fwiki%2FCommandReference" 
+ onclick="_CS_click('/gb/ph/signout');"
+ ><u>Sign out</u></a>
+ 
+ </span>
+
+ </div>
+
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if lte IE 7]>
+<div style="text-align:center;">
+Your version of Internet Explorer is not supported. Try a browser that
+contributes to open source, such as <a href="http://www.firefox.com">Firefox</a>,
+<a href="http://www.google.com/chrome">Google Chrome</a>, or
+<a href="http://code.google.com/chrome/chromeframe/">Google Chrome Frame</a>.
+</div>
+<![endif]-->
+
+
+
+ <table style="padding:0px; margin: 0px 0px 10px 0px; width:100%" cellpadding="0" cellspacing="0"
+ itemscope itemtype="http://schema.org/CreativeWork">
+ <tr style="height: 58px;">
+ 
+ 
+ 
+ <td id="plogo">
+ <link itemprop="url" href="/p/boar">
+ <a href="/p/boar/">
+ 
+ <img src="https://ssl.gstatic.com/codesite/ph/images/defaultlogo.png" alt="Logo" itemprop="image">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname">
+ <a href="/p/boar/"><span itemprop="name">boar</span></a>
+ </div>
+ 
+ <div id="psum">
+ <a id="project_summary_link"
+ href="/p/boar/"><span itemprop="description">Simple version control and backup for photos, videos and other binary files</span></a>
+ 
+ </div>
+ 
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right; vertical-align:bottom;">
+ 
+ <form action="/hosting/search">
+ <input size="30" name="q" value="" type="text">
+ 
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+</div>
+
+ 
+<div id="mt" class="gtb"> 
+ <a href="/p/boar/" class="tab ">Project&nbsp;Home</a>
+ 
+ 
+ 
+ 
+ <a href="/p/boar/downloads/list" class="tab ">Downloads</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/boar/w/list" class="tab active">Wiki</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/boar/issues/list"
+ class="tab ">Issues</a>
+ 
+ 
+ 
+ 
+ 
+ <a href="/p/boar/source/checkout"
+ class="tab ">Source</a>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <a href="https://code.google.com/export-to-github/export?project=boar">
+ <button>Export to GitHub</button>
+ 
+ </a>
+ 
+ 
+ <div class=gtbc></div>
+</div>
+
+ 
+ <div style="font-weight: bold; color: #c00; margin-top: 5px; margin-left: 13px;">
+ READ-ONLY: This project has been <a href='https://code.google.com/archive/p/boar'>archived</a>. For more information see <a href='https://code.google.com/p/support/wiki/ReadOnlyTransition'>this post</a>.
+ </div>
+ 
+
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ <td class="subt">
+ <div class="issueDetail">
+<div class="isf">
+ 
+ <span class="inIssueList"> 
+ <span>Search</span>
+ <form action="/p/boar/w/list" method="GET" style="display:inline">
+ <select id="can" name="can" >
+ <option disabled="disabled">Search within:</option>
+ 
+ <option value="1" >&nbsp;All wiki pages</option>
+ <option value="3" >&nbsp;Featured pages</option>
+ <option value="2" selected="selected">&nbsp;Current pages</option>
+ 
+ 
+ <option value="5" >&nbsp;My starred pages</option>
+ 
+ <option value="4" >&nbsp;Deprecated pages</option>
+ 
+ </select>
+ <span>for</span>
+ <span id="qq"><input type="text" size="38" id="searchq" name="q" value=""
+ autocomplete="off" ></span>
+ 
+ 
+ 
+ <input type="submit" value="Search" >
+ </form>
+ </span>
+
+ 
+ 
+ 
+
+</div>
+</div>
+
+ </td>
+ 
+ 
+ 
+ 
+ 
+ 
+ <td align="right" valign="top" class="bevel-right"></td>
+ </tr>
+</table>
+
+
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+<div id="maincol"
+ 
+>
+
+ 
+
+
+
+
+
+
+
+ <style type="text/css">
+ .delcom { background: #e8e8e8 }
+ .commentcontent {
+ margin: 2em;
+ padding: 0px 10px;
+ width: 66em;
+ }
+ .artifactcomment {
+ border-top: 3px solid #c3d9ff;
+ }
+ #commentform {
+ border-top: 3px solid #c3d9ff;
+ }
+ </style>
+
+<div id="wikipage">
+<table>
+ <tr>
+ 
+ 
+ <td style="vertical-align:top; padding-left:5px">
+ 
+ <div id="wikiheader">
+ 
+ <img width="15" height="15" id="star_img"
+ src="https://ssl.gstatic.com/codesite/ph/images/star_off.gif"
+ style="cursor:pointer"
+ onclick="_CS_toggleStar(this,
+ {'scope': 'wiki',
+ 'user': '_CURRENT_USER',
+ 'item': 'boar:CommandReference'
+ });"/>
+ 
+ <span style="font-size:120%;font-weight:bold">CommandReference</span>
+ &nbsp;
+ <div> 
+ 
+ <i>All the commands</i>
+ 
+ 
+ 
+ <div id="wikiauthor" style="float:right">
+ Updated <span title="Mon Mar 30 05:15:03 2015">
+ Mar 30, 2015</span>
+ 
+ by 
+
+ <a class="userlink"
+ href="/u/111926285981378705268/">ekb...@gmail.com</a
+>
+ 
+ </div>
+ </div>
+ </div>
+ 
+ <div id="wikicontent">
+ <div class="vt" id="wikimaincol">
+ <h1><a name="Command_reference"></a>Command reference<a href="#Command_reference" class="section_anchor"></a></h1><p>This is a list of all commands that can be issued to boar. Note that this list refers to the latest development version of boar, there may be minor differences compared to the latest release. </p><p><ul><li><a href="#Command_reference">Command reference</a></li><ul><li><a href="#--version">--version</a></li><li><a href="#cat">cat</a></li><li><a href="#ci">ci</a></li><li><a href="#clone">clone</a></li><li><a href="#co">co</a></li><li><a href="#diffrepo">diffrepo</a></li><li><a href="#getprop">getprop</a></li><li><a href="#info">info</a></li><li><a href="#import">import</a></li><li><a href="#list">list</a></li><li><a href="#locate">locate</a></li><li><a href="#log">log</a></li><li><a href="#ls">ls</a></li><li><a href="#mkrepo">mkrepo</a></li><li><a href="#mksession">mksession</a></li><li><a href="#setprop">setprop</a></li><li><a href="#status">status</a></li><li><a href="#truncate">truncate</a></li><li><a href="#update">update</a></li><li><a href="#verify">verify</a></li></ul><li><a href="#Experimental/debugging_commands">Experimental/debugging commands</a></li><ul><li><a href="#find">find</a></li></ul></ul> </p><h2><a name="--version"></a>--version<a href="#--version" class="section_anchor"></a></h2><p>Syntax: <tt>boar --version</tt> </p><p>Prints some information about boar, including the version id. </p><h2><a name="cat"></a>cat<a href="#cat" class="section_anchor"></a></h2><p>Syntax: <tt>boar cat [-r|--revision &lt;revision&gt;] [-B|--blob &lt;blob id&gt;] [--punycode] &lt;session name&gt;&lt;/path/...&gt; ...</tt> </p><p>Output one or more files directly to stdout. The output from this command is guaranteed to only contain the file data. </p><p>If --revision is given, that version of the file will be outputted. </p><p>If --blob is given, the blob with the given id will be outputted (no session path necessary when using --blob) </p><p>If --punycode is given, the session path will be assumed to be encoded in <a href="http://en.wikipedia.org/wiki/Punycode" rel="nofollow">punycode</a>. This is primarily useful when scripting commands on platforms with flaky unicode support. </p><h2><a name="ci"></a>ci<a href="#ci" class="section_anchor"></a></h2><p>Syntax: <tt>boar ci [-m &quot;log message&quot;] [-a|--add-only] [-e|--allow-empty] [-q|--quiet]</tt> </p><p>Commits any changes that has occured in the workdir, thereby creating a new snapshot.  </p><p>You can use the &quot;-m&quot; flag to add an optional log message. (The log message must be specified on the command line. There will be no attempt to start an text editor if the message is missing.) </p><p>If the --add-only (also &quot;-a&quot;) option is given, only new files are committed. Modified and deleted files are ignored. This may be useful for instance if you are using your camera memory card as a boar workdir, and want to keep images in the session even though you have deleted them on the camera to free up space. </p><p>If the --allow-empty option is given, a new snapshot will always be committed, even if there are no changes to commit. </p><p>If the --quiet option is given, less progress information is printed. </p><h2><a name="clone"></a>clone<a href="#clone" class="section_anchor"></a></h2><p>Syntax: <tt>boar clone [-r|--replicate] [--skip-verification] &lt;source repository&gt; &lt;destination repository&gt;</tt> </p><p>Creates or updates a copy of the source repository. This is a safe and fast way to create a copy of the repository. Boar makes sure that the two repositories are consistent (the destination repository, if it already exists, must be a earlier revision of the source repository). The cloning process can be safely aborted at any time, and it is resumeable. </p><p><strong>The clone command is intended only for making and maintaining backups of your repository. If you modify the clone, it is no longer considered a clone and cannot be updated from the master. There is no way to merge changes between repositories.</strong> </p><p>If the --replicate flag is given, boar will continuously monitor and sync any incoming changes, making sure the clone stays updated. When this option is used, boar will never exit (until it is killed or an error occurs). </p><p>If --skip-verification is given, no verifications will be performed on the repositories before cloning. This makes cloning much faster, but is potentially dangerous as corruption on the master might spread to the slave undetected. </p><h2><a name="co"></a>co<a href="#co" class="section_anchor"></a></h2><p>Syntax: <tt>boar co [-r &lt;snapshot id&gt;] &lt;session name[/path/]&gt; [workdir]</tt> </p><p>Checks out a session (or subdir of a session) as a new workdir. If no workdir path is specified, the name of the session will be used. </p><p>Normally the latest snapshot is checked out, but you can use the -r option to specify an older snapshot.  </p><h2><a name="diffrepo"></a>diffrepo<a href="#diffrepo" class="section_anchor"></a></h2><p>Syntax: <tt>boar diffrepo &lt;repository 1&gt; &lt;repository 2&gt;</tt> </p><p>Checks if the two given repositories are identical and then prints a message and sets the return code. Return code 0 means they are identical, anything else means they are not. This command is probably most useful for scripting. </p><h2><a name="getprop"></a>getprop<a href="#getprop" class="section_anchor"></a></h2><p>Syntax: <tt>boar getprop &lt;session name&gt; &lt;property name&gt; [-f &lt;filename&gt;]</tt> </p><p>Get a session property. The value of the session property will be printed. If the -f argument and a filename is given, the value of the property will be written to the given file instead. </p><h2><a name="info"></a>info<a href="#info" class="section_anchor"></a></h2><p>Syntax: <tt>boar info</tt> </p><p>Prints some information about the current work dir. </p><h2><a name="import"></a>import<a href="#import" class="section_anchor"></a></h2><p>Syntax: <tt>boar import [-e|--allow-empty] [--ignore-errors] [-W|--no-workdir] [-n|--dry-run] [-v|--verbose] [-m &quot;log message&quot;] &lt;directory&gt; &lt;session name[/path/]&gt;</tt> </p><p>Import the given directory into the given session, optionally to a specific sub path in the session. By default boar will turn the imported directory into a workdir, but you can disable this behavior with &quot;--no-workdir&quot;.  </p><p>The “--dry-run” option performs a dry run. That is, nothing will actually be added to the repository, but you will be able to see what would have happened.  </p><p>The “--verbose” option enables verbose mode, meaning some information and progress will be printed. </p><p>The &quot;-m&quot; flag is used to add an optional log message. (The log message must be specified on the command line. There will be no attempt to start an text editor if the message is missing.) </p><p>If the --allow-empty option is given, a new snapshot will always be committed, even if there are no files to commit. </p><p>The --ignore-errors option can be given if any unreadable files should be skipped, instead of aborting the operation.  </p><p>Import will never replace any existing files in the session. If you try, you will get an error message. </p><h2><a name="list"></a>list<a href="#list" class="section_anchor"></a></h2><p>Syntax: <tt>boar list [-m] [session name [snapshot id]]</tt> </p><p>With no arguments, lists all sessions in the repository. If session name is given, lists all snapshots in that session. If a snapshot id is given as well, a list of all files in that snapshot is printed. </p><p>Meta sessions (sessions containing properties for other sessions) are normally hidden. By giving the -m argument, these sessions are shown. </p><p><i>If you just want to browse the contents of a repository, the &quot;ls&quot; command is a friendlier alternative.</i> </p><h2><a name="locate"></a>locate<a href="#locate" class="section_anchor"></a></h2><p>Syntax: <tt>boar locate &lt;session name&gt; [file/dir] [file/dir] [...]</tt> </p><p>Will scan the given files or directories and show what files are present in the given session, and if so, where in the session. This is useful to figure out if some files are already present in your repository. </p><h2><a name="log"></a>log<a href="#log" class="section_anchor"></a></h2><p>Syntax: <tt>boar log [-v|--verbose] [-r|--revision &lt;revision range&gt;] [&lt;session name&gt;&lt;/path/...&gt; | &lt;workdir path&gt;]</tt> </p><p>Show log messages and timestamps for a file or tree. This command can be used both in workdirs on individual files, or on session paths in repositories. </p><p>If --verbose is given, a list of what files has changed in each revision will be printed. </p><p>If --revision is given, only the log entries for these revisions will be shown. Revision can be given as a single integer, or as a range on the form N:M. </p><h2><a name="ls"></a>ls<a href="#ls" class="section_anchor"></a></h2><p>Syntax: <tt>boar ls [-v|--verbose] [-r|--revision &lt;revision&gt;] [session name/path/...]</tt> </p><p>With no arguments, lists all sessions in the repository. If a session name with an optional path is given, lists the contents of the specified directory. </p><p>By default &quot;ls&quot; lists the contents of the latest available revision, but earlier revisions can be specified with the &quot;-r&quot; option. </p><p>If the &quot;-v&quot; verbose flag is given, file size data is printed after every file name. </p><h2><a name="mkrepo"></a>mkrepo<a href="#mkrepo" class="section_anchor"></a></h2><p>Syntax: <tt>boar mkrepo &lt;repository path&gt;</tt> </p><p>Create a new repository. </p><h2><a name="mksession"></a>mksession<a href="#mksession" class="section_anchor"></a></h2><p>Syntax: <tt>boar mksession &lt;session name&gt;</tt> </p><p>Create a new session in a repository. </p><h2><a name="setprop"></a>setprop<a href="#setprop" class="section_anchor"></a></h2><p>Syntax: <tt>boar setprop &lt;session name&gt; &lt;property name&gt; [-f &lt;filename&gt; | &lt;property value&gt;]</tt> </p><p>Set a session property. Typical use is to set an <a href="/p/boar/wiki/IgnoreAndInclude">ignore list</a> for a session. The new value of the property can be specified as the last argument, or the new value can be read from a file, specified with the -f argument. </p><h2><a name="status"></a>status<a href="#status" class="section_anchor"></a></h2><p>Syntax: <tt>boar status [-v]</tt> </p><p>Prints any changes that has been done to the workdir (that is, what will be checked in if “boar ci” is executed). “-v” will print status information about all files, even unchanged ones. </p><p>Two status letters will be printed for each file. The leftmost column is as follows: </p><ul><li>A - The file is new </li><li>D - The file has been deleted </li><li>M - The file has been modified </li><li>i - The file is ignored by boar for some reason (special files, soft links) </li></ul><h2><a name="truncate"></a>truncate<a href="#truncate" class="section_anchor"></a></h2><p>Syntax: <tt>boar truncate &lt;session name&gt;</tt> </p><p>The truncate command will permanently erase all old revisions of a specific session. Due to the nature of the command, it must be enabled on a per-repository basis. For more information about truncation, and how to enable the command, see <a href="/p/boar/wiki/Truncate">Truncate</a>. </p><h2><a name="update"></a>update<a href="#update" class="section_anchor"></a></h2><p>Syntax: <tt>boar update [-r &lt;revision&gt;] [--ignore-errors] [-c|--ignore-changes] [-q|--quiet]</tt> </p><p>Updates the workdir with any changes from the repository. If an revision is specified with the -r argument, the workdir will be updated to that revision. Otherwise, it will be updated to the latest revision. Note that &quot;update&quot; can be used to update to an earlier revision as well. </p><p>Modified files in the workdir will never be changed by an update. If you want to revert some changes to a file, just delete the modified file and execute &quot;update&quot; again.  </p><p>Normally, the update process will stop with an error message if some files cannot be updated (if they are locked by another process, for instance). The --ignore-errors option makes boar just print a warning and continue with the update. Please note that boar will not remember that those files were not updated. Hence, the next time you check in, boar will commit the old version of those files.  </p><p>If --ignore-changes is given, the workdir revision will be updated, but no incoming changes will be applied. This can be used to revert a session to an earlier state, by first running &quot;update -r &lt;desired revision to revert to&gt;&quot; and then &quot;update --ignore-changes&quot; followed by a normal commit. </p><h2><a name="verify"></a>verify<a href="#verify" class="section_anchor"></a></h2><p>Syntax: <tt>boar verify [--quick]</tt> </p><p>Verifies that the repository is healthy. </p><p>If the --quick command is given, verification of the blobs is skipped. You should normally not use --quick, since it will not detect corrupt files. It will however detect things like if some of the files are missing or if the meta data files has been corrupted. </p><h1><a name="Experimental/debugging_commands"></a>Experimental/debugging commands<a href="#Experimental/debugging_commands" class="section_anchor"></a></h1><h2><a name="find"></a>find<a href="#find" class="section_anchor"></a></h2><p>Syntax: <tt>boar find &lt;hex md5sum&gt; &lt;session name&gt;</tt> </p><p>Given a md5 checksum, prints a list of files in the current session that has that checksum. </p>
+ </div>
+ </div>
+ </td><tr>
+</table>
+ </div>
+
+
+ 
+ 
+ 
+ <form name="delcom" action="../w/delComment.do" method="POST">
+ <input type="hidden" name="sequence_num" value="" >
+ <input type="hidden" name="create_time" value="" >
+ <input type="hidden" name="mode" value="" >
+ <input type="hidden" name="pagename" value="CommandReference" >
+ <input type="hidden" name="token" value="ABZ6GAdh52niQrZsdm0FIB-50brpfGQsIA:1442450405202" >
+ </form>
+
+
+ <script src="https://ssl.gstatic.com/codesite/ph/13998957996356775390/js/prettify/prettify.js"></script>
+ <script type="text/javascript">
+ prettyPrint();
+ </script>
+
+<script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/13998957996356775390/js/dit_scripts.js"></script>
+
+
+
+  
+ 
+ 
+ <script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/13998957996356775390/js/ph_core.js"></script>
+ 
+ <script type="text/javascript" src="https://ssl.gstatic.com/codesite/ph/13998957996356775390/js/ph_dwiki.js"></script>
+ 
+ 
+ 
+ 
+</div> 
+
+<div id="footer" dir="ltr">
+ <div class="text">
+ <a href="/projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="/p/support/">Project Hosting Help</a>
+ </div>
+</div>
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="http://code.google.com/projecthosting/">Google Project Hosting</a></span>
+ </div>
+
+ 
+ 
+
+
+ 
+ </body>
+</html>
+
+

@@ -1,0 +1,633 @@
+%%
+%% Automatically generated file from DocOnce source
+%% (https://github.com/hplgit/doconce/)
+%%
+
+% #define PREAMBLE
+
+% #ifdef PREAMBLE
+%-------------------- begin preamble ----------------------
+
+\documentclass[%
+twocolumn,
+twoside,                 % oneside: electronic viewing, twoside: printing
+final,                   % or draft (marks overfull hboxes, figures with paths)
+10pt]{article}
+
+\listfiles               % print all files needed to compile this document
+
+\usepackage{relsize,makeidx,color,setspace,amsmath,amsfonts}
+\usepackage[table]{xcolor}
+\usepackage{bm,microtype}
+
+\usepackage{graphicx}
+
+% Packages for typesetting blocks of computer code
+\usepackage{fancyvrb,framed,moreverb}
+
+% Define colors
+\definecolor{orange}{cmyk}{0,0.4,0.8,0.2}
+\definecolor{darkorange}{rgb}{.71,0.21,0.01}
+\definecolor{darkgreen}{rgb}{.12,.54,.11}
+\definecolor{myteal}{rgb}{.26, .44, .56}
+\definecolor{gray}{gray}{0.45}
+\definecolor{mediumgray}{gray}{.8}
+\definecolor{lightgray}{gray}{.95}
+
+\colorlet{comment_green}{green!50!black}
+\colorlet{string_red}{red!60!black}
+\colorlet{keyword_pink}{magenta!70!black}
+\colorlet{indendifier_green}{green!70!white}
+
+% New ansi colors
+\definecolor{brown}{rgb}{0.54,0.27,0.07}
+\definecolor{purple}{rgb}{0.5,0.0,0.5}
+\definecolor{darkgray}{gray}{0.25}
+\definecolor{darkblue}{rgb}{0,0.08,0.45}
+\definecolor{lightred}{rgb}{1.0,0.39,0.28}
+\definecolor{lightgreen}{rgb}{0.48,0.99,0.0}
+\definecolor{lightblue}{rgb}{0.53,0.81,0.92}
+\definecolor{lightpurple}{rgb}{0.87,0.63,0.87}
+\definecolor{lightcyan}{rgb}{0.5,1.0,0.83}
+
+% Backgrounds for code
+\definecolor{cbg_gray}{rgb}{.95, .95, .95}
+\definecolor{bar_gray}{rgb}{.92, .92, .92}
+
+\definecolor{cbg_yellowgray}{rgb}{.95, .95, .85}
+\definecolor{bar_yellowgray}{rgb}{.95, .95, .65}
+
+\colorlet{cbg_yellow2}{yellow!10}
+\colorlet{bar_yellow2}{yellow!20}
+
+\definecolor{cbg_yellow1}{rgb}{.98, .98, 0.8}
+\definecolor{bar_yellow1}{rgb}{.98, .98, 0.4}
+
+\definecolor{cbg_red1}{rgb}{1, 0.85, 0.85}
+\definecolor{bar_red1}{rgb}{1, 0.75, 0.85}
+
+\definecolor{cbg_blue1}{rgb}{0.87843, 0.95686, 1.0}
+\definecolor{bar_blue1}{rgb}{0.7,     0.95686, 1}
+\usepackage{minted}
+\usemintedstyle{default}
+
+\usepackage[T1]{fontenc}
+%\usepackage[latin1]{inputenc}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+
+\usepackage{lmodern}         % Latin Modern fonts derived from Computer Modern
+
+% Hyperlinks in PDF:
+\definecolor{linkcolor}{rgb}{0,0,0.4}
+\usepackage{hyperref}
+\hypersetup{
+    breaklinks=true,
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor,
+    citecolor=black,
+    filecolor=black,
+    %filecolor=blue,
+    pdfmenubar=true,
+    pdftoolbar=true,
+    bookmarksdepth=3   % Uncomment (and tweak) for PDF bookmarks with more levels than the TOC
+    }
+%\hyperbaseurl{}   % hyperlinks are relative to this root
+
+\setcounter{tocdepth}{2}  % number chapter, section, subsection
+
+% Tricks for having figures close to where they are defined:
+% 1. define less restrictive rules for where to put figures
+\setcounter{topnumber}{2}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{4}
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.15}
+\renewcommand{\floatpagefraction}{0.7}
+% 2. ensure all figures are flushed before next section
+\usepackage[section]{placeins}
+% 3. enable begin{figure}[H] (often leads to ugly pagebreaks)
+%\usepackage{float}\restylefloat{figure}
+
+% newcommands for typesetting inline (doconce) comments
+\newcommand{\shortinlinecomment}[3]{{\color{red}{\bf #1}: #2}}
+\newcommand{\longinlinecomment}[3]{{\color{red}{\bf #1}: #2}}
+
+% prevent orhpans and widows
+\clubpenalty = 10000
+\widowpenalty = 10000
+
+% --- end of standard preamble for documents ---
+
+%\usepackage{flafter}
+
+% makes figures appear closer to the defined location
+\usepackage{float}
+\floatplacement{figure}{H}
+
+
+%%%% sets margins
+\usepackage[letterpaper, portrait, margin=0.25in]{geometry}
+
+% insert custom LaTeX commands...
+
+\raggedbottom
+\makeindex
+
+%-------------------- end preamble ----------------------
+
+\begin{document}
+
+% endif for #ifdef PREAMBLE
+% #endif
+
+
+% ------------------- main content ----------------------
+
+
+
+% ----------------- title -------------------------
+
+\title{Neals First DocOnce Publication}
+
+% ----------------- author(s) -------------------------
+
+\author{Neal Gordon\footnote{Email: \texttt{nealagordon@gmail.com}. ifcuriousthenlearn.}}
+
+% ----------------- end author(s) -------------------------
+
+\date{Jun 4, 2015}
+\maketitle
+
+\begin{abstract}
+My goal here is to learn the package \href{{http://hplgit.github.io/doconce/doc/web/index.html}}{doconce}, which is a markup syntax for creating scientific documents with many different types of outputs, including markdown, html, ipython notebooks, pdfs, and docx files. What's wrong with markdown? The short answer is nothing, it is great and important to know, however, some features that a needed for more advanced features, like figure/equation references, as well as including citations is needed, and haven't any good solution for that. 
+All the up-to-date source code and various document formats can be found on the \href{{https://github.com/nagordon/technotes/tree/master/doconce}}{github repository}.
+\end{abstract}
+
+\tableofcontents
+
+
+\vspace{1cm} % after toc
+
+
+
+
+\section{Introduction}
+\label{sec:intro}
+
+DocOnce is a lightweight markup language that is pure python, tso that it will work on any OS
+the source markdown files have extension *.do.txt
+each document should have the structure with a fig and src directory to keep images and code. The make.sh file is used to generate various documents with a lot of of custom settings. 
+
+\subsection{SubIntro}
+Since I have began blogging, I realized the importance of learning html, markdown, etc and now have been trying my best to learn tex and {\LaTeX}. While doconce is a little buggy, it is still under active development and have found it very useful for learning how all the various markups work together. I still find microsoft products very handy, especially v2013, but when working with the web and version control systems, plain text sources files are great! So, if you haven't heard of doconce yet, check it out! 
+
+\paragraph{SubSubIntro.}
+The main goal here is to generate an example document to help me learn and show you the syntax of doconce. Hopefully it will make sense and the errors are minimal! This is still a work in progress.
+
+
+\section{Headings, Labels, and References}
+\label{sec:hlr}
+
+For simple documents, chapters are not necessary, so only 7= are necessary to create a header for the section.
+
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{text}
+chapter	         ========= Heading ========= (9 =)
+section	         ======= Heading ======= (7 =)
+subsection	     ===== Heading ===== (5 =)
+subsubsection	 === Heading === (3 =)
+paragraph	     __Heading.__ (2 _)
+abstract	     __Abstract.__ Running text...
+appendix	     ======= Appendix: heading ======= (7 =)
+appendix	     ===== Appendix: heading ===== (5 =)
+\end{minted}
+
+
+Labels are created with any text in curly braces and prefixed with label and then referenced with prefix ref. The ref must be enclosed with paranthesis. References can be made within the document with (\ref{sec:intro}). Figures are referenced using (\ref{fig:myfig2}), and to reference a section of the document like the code section~\ref{sec:code}  or the bibliography can be created using the prefix cite. One example of what doconce can be used for is an entire book \cite{Langtangen}. Also, equations can be referenced in a similar fashion, such as (\ref{eqn:tsaihill}). 
+
+Index of keywords can be defined with 
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{text}
+index{name}
+\end{minted}
+
+so that we have index{testindex}, and my favorite language index{python}
+
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{text}
+# define location label
+label{sec:intro}
+
+# reference location label
+(ref{sec:intro})
+
+# reference citations
+cite{Langtangen}
+
+\end{minted}
+
+
+\subsection{my subheading}
+testing the subheading
+
+\paragraph{my subsubheading.}
+finally, the smallest heading we can have
+
+% Lines beginning with # are comment lines
+
+\section{Code}
+\label{sec:code}
+
+Code can be identified in the text by enclosing the text in single back quotes, as in 
+
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{bash}
+'sudo apt-get install numpy'
+\end{minted}
+
+And an inline rendering of that is \Verb!sudo apt-get install numpy!. Which is handy when you do not want to start a new line everytime.
+
+
+
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{python}
+# a comment in my python code
+def f(x):
+    return 1 + x
+\end{minted}
+
+Also code can be inserted with this \Verb!@@@CODE src/hiwrld.py!
+
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{python}
+
+# Here is an example python program
+
+x = 'hi doconce world'
+
+def hiworld(x):
+    print(x)
+
+# thats all
+\end{minted}
+
+This way, all the code can be kept in a usable form or in inserted easily if changes
+
+Here is the bash file that is used to generate all the various kinds of output files
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{bash}
+#!/bin/sh
+
+
+# create a variable of the doconce file
+dofile='doconce_notes'
+
+########################## cleanup 
+####remove the pdfs and tex file that will be overwritten
+rm $dofile.pdf
+
+########################## Latex 
+#### Create a plain tex file
+doconce format pdflatex $dofile \
+			--latex_code_style=vrb \
+			--latex_title_layout=std \
+			--tables2csv  
+			#--latex_code_style=vrb
+
+rm -f *.aux
+pdflatex $dofile.tex
+bibtex $dofile
+pdflatex $dofile.tex
+pdflatex $dofile.tex
+mv $dofile.pdf $dofile.simple.pdf
+
+#### Create tex file with fancy formatting and custom latex
+doconce format pdflatex $dofile \
+			--latex_code_style=pyg \
+			--latex_title_layout=std \
+			--latex_preamble=customization.tex
+			#--latex_todonotes  # includes inline notes
+
+#### helps position the figures
+doconce replace 'begin{figure}' 'begin{figure}' $dofile.tex
+
+# create the pdf of the tex file	
+rm -f *.aux				
+pdflatex -shell-escape -interaction=batchmode $dofile.tex
+bibtex $dofile
+pdflatex -shell-escape -interaction=batchmode $dofile.tex
+pdflatex -shell-escape -interaction=batchmode $dofile.tex
+mv $dofile.pdf $dofile.1col.pdf
+
+#### creates a two column article
+python insert_tex.py $dofile.tex
+# create the pdf of the tex file	
+rm -f *.aux				
+pdflatex -shell-escape -interaction=batchmode $dofile.tex
+bibtex $dofile
+pdflatex -shell-escape -interaction=batchmode $dofile.tex
+pdflatex -shell-escape -interaction=batchmode $dofile.tex
+mv $dofile.pdf $dofile.2col.pdf
+
+########################## Markdown 
+
+#create the github markdown from the doconce_notes.do.txt file
+doconce format pandoc $dofile --github_md
+
+#From markdown to docx
+pandoc -s -S $dofile.md -o $dofile.md.docx
+
+########################## ipython notebook 
+
+# create ipython notebook file
+doconce format ipynb $dofile
+
+# create an html file from the ipynb
+ipython nbconvert $dofile.ipynb
+mv $dofile.html $dofile.ipynb.html
+wkhtmltopdf $dofile.ipynb.html $dofile.ipynb.pdf
+
+########################## Tables 
+doconce format --tables2csv
+########################## HTML 
+
+# create a styled html file
+doconce format html $dofile --html_style=tactile-black
+wkhtmltopdf $dofile.html $dofile.html.pdf
+
+
+########################## cleanup 
+
+doconce clean
+
+# remove all the files that are generated during doconce make
+rm *.toc *.log *.aux *.out *.idx *.bbl *.blg *.gz
+
+# removes the trash directory
+rm -R Trash
+\end{minted}
+
+\section{Lists}
+
+Here are some examples of lists directly from the \href{{http://hplgit.github.io/doconce/doc/pub/quickref/quickref.html}}{documentation}
+
+Here is a bullet list:
+
+\begin{itemize}
+ \item item1
+
+ \item item2
+\begin{itemize}
+
+  \item subitem1 of item2
+
+  \item subitem2 of item2,
+    second line of subitem2
+
+\end{itemize}
+
+\noindent
+ \item item3
+\end{itemize}
+
+\noindent
+Note that sublists are consistently indented by one or more blanks as
+shown: bullets must exactly match and continuation lines must start
+right below the line above.
+
+Here is an enumeration list:
+
+\begin{enumerate}
+\item item1
+
+\item item2
+   may appear on
+   multiple lines
+\begin{enumerate}
+
+ \item subitem1 of item2
+
+ \item subitem2 of item2
+
+\end{enumerate}
+
+\noindent
+\item item3
+\end{enumerate}
+
+\noindent
+And finally a description list:
+
+\begin{description}
+ \item[keyword1:] 
+   followed by
+   some text
+   over multiple
+   lines
+
+ \item[keyword2:] 
+   followed by text on the next line
+
+ \item[keyword3:] 
+   and its description may fit on one line
+\end{description}
+
+\noindent
+\section{Comments and Footnotes}
+\label{sec:com}
+
+Creating comments in the text is a handy way to supplement with optional information, one way is to use an inline comment such as \shortinlinecomment{hpl 1}{ here I will make some remarks to the text }{ here I will make }. Another way to add content is to add a footnote \footnote{The syntax for footnotes is borrowed from Extended Markdown.} is also possible.
+
+
+
+\section{Math, Latex}
+\label{sec:math}
+
+inline latex can look like this 
+$x = a_0 + \frac{1}{\displaystyle a_1 + \frac{1}{\displaystyle a_2 + \frac{1}{\displaystyle a_3 + a_4}}}$
+and another block
+
+\[ \frac{\partial\pmb{u}}{\partial t} + \pmb{u}\cdot\nabla\pmb{u} = 0.\]
+
+and some inline latex,  $\frac{\partial y}{\partial x}$ everybody loves partial differentiation
+
+and finally equations, can have a label such as 
+
+\begin{align}
+1 =  \left(\frac{\sigma_{1}}{\sigma_{1u}}\right)^{2} + \left(\frac{\sigma_{2}}{\sigma_{2u}}\right)^{2}  +  \left(\frac{\tau_{12}}{\tau_{12u}}\right)^{2}  - \left(\frac{\sigma_{1} \sigma_{2}} {\sigma_{1u} }\right) \label{eqn:tsaihill}  
+\end{align}
+
+
+\section{Images}
+\label{sec:img}
+
+This section explains how to create images. The size can be adjusted with frac and the width adjusts the width when exporting to html
+
+for a really tiny image, we can use
+
+\begin{figure}
+  \centerline{\includegraphics[width=0.1\linewidth]{fig/mint.png}}
+  \caption{
+  My favorite linux desktop with frac-0.1.  \label{fig:myfig1}
+  }
+\end{figure}
+%\clearpage % flush figures fig:myfig1
+
+
+and for a figure that is a bit bigger, we can increase the fraction size
+
+\begin{figure}
+  \centerline{\includegraphics[width=0.3\linewidth]{fig/mint.png}}
+  \caption{
+  My favorite linux desktop with frac-0.9.    \label{fig:myfig2}
+  }
+\end{figure}
+%\clearpage % flush figures fig:myfig2
+
+
+
+
+\section{File Structure}
+\label{sec:fil}
+
+each document should have the structure with a fig and src directory to keep images and code. The make.sh file is used to generate various documents with a lot of of custom settings
+
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{text}
+doconce_notes.do.txt
+doconce_notes.md
+doconce_notes.pdf
+fig
+	mint.png
+make.sh
+test.do.txt
+test.pdf
+\end{minted}
+
+
+\section{Help}
+
+help can be gotten from \Verb!doconce format --help!
+
+\section{Coverting Files}
+
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{text}
+doconce format html test  # creates an html document
+doconce format pandoc test   # creates markdown
+doconce format latex test   # creates latex document
+doconce format ipynb mydoc  # results in mydoc.ipynb
+doconce format mwiki mydoc.do.txt  # creates a wiki page
+doconce format ipynb test.do  # ipython notebook
+\end{minted}
+
+\href{{http://pandoc.org/index.html}}{Pandoc} is a very powerful converter that can be used with doconce
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{text}
+#From markdown to docx
+pandoc -s -S doconce_notes.md -o doconce_notes.md.docx
+
+#From markdown to PDF:
+pandoc doconce_notes.md -o doconce_notes.md.pdf
+\end{minted}
+
+For compiling and document creation, please reference the \emph{make.sh} file in this repository
+
+When running the make file, make sure it is executable and run it with
+
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{bash}
+chmod +x make.sh
+./make.sh
+\end{minted}
+
+\section{Installation}
+\label{sec:install}
+
+I am using a Windows 7 laptop with 	
+
+\href{{https://www.virtualbox.org/wiki/Downloads}}{VirtualBox}
+\href{{http://www.linuxmint.com/edition.php?id=172}}{Linux Mint 17.1}
+
+Make sure your machine is up to date
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{bash}
+sudo apt-get update && sudo apt-get upgrade
+\end{minted}
+
+Then, install python. A barebones python install with IMHO, the best python package maanger conda, the \href{{http://conda.pydata.org/miniconda.html}}{miniconda package} is easy and \href{{https://github.com/conda/conda}}{open-source}
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{bash}
+# download
+wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
+# make sure shell file is excutable
+chmod +x Miniconda-latest-Linux-x86_64.sh  
+
+# Execute
+./Miniconda-latest-Linux-x86_64.sh  
+\end{minted}
+
+I've gotten an error in the past with Linux Mint that conda command does not exist. This should fix it by creating a link with conda to the bin directory. 
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{bash}
+sudo ln ~/anaconda/bin/conda /usr/local/bin/
+\end{minted}
+
+If miniconda is used, be sure to install the ipython notebook if you plan on using it
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{bash}
+conda install ipython-notebook
+\end{minted}
+
+Next, make sure all the dependecies are installed. Latex is an integral part of doconce, as well as pandoc for converting markdown files and the like
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{bash}
+sudo apt-get install texlive-full
+sudo apt-get install pandoc
+\end{minted}
+
+Finally, we are ready to install doconce. There is a conda package that makes the installation very easy. 
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{bash}
+conda install --channel johannr doconce
+\end{minted}
+
+Another option is to download a bash script \href{{https://raw.githubusercontent.com/hplgit/doconce/master/doc/src/manual/install_doconce.sh}}{here} and use it to install
+\begin{minted}[fontsize=\fontsize{9pt}{9pt},linenos=false,mathescape,baselinestretch=1.0,fontfamily=tt,xleftmargin=2mm]{bash}
+chmod +x install_doconce.sh  
+./bash install_doconce.sh
+\end{minted}
+
+\section{Sundries}
+
+DO NOT USE UNDERSCORES IN ANY PART OF YOUR DOCUMENT, ONLY FOR MARKDOWN.
+
+
+\section{Handy Links}
+\label{sec:links}
+
+Examples of a couple of the output files can be found here
+\href{{https://github.com/nagordon/technotes/blob/master/doconce/doconce_notes.1col.pdf}}{doconcenotes1colpdf} , \href{{https://github.com/nagordon/technotes/blob/master/doconce/doconce_notes.2col.pdf}}{doconcenotes2colpdf} , \href{{https://github.com/nagordon/technotes/blob/master/doconce/doconce_notes.html.pdf}}{htmlblack}, \href{{https://github.com/nagordon/technotes/blob/master/doconce/doconce_notes.ipynb.pdf}}{htmlipynb}, and, although not great, \href{{https://github.com/nagordon/technotes/blob/master/doconce/doconce_notes.md.docx}}{doconcedocx}.
+
+main site \href{{https://github.com/hplgit/doconce}}{\nolinkurl{https://github.com/hplgit/doconce}}
+
+\href{{http://hplgit.github.io/doconce/doc/pub/tutorial/tutorial.html}}{tutorial}  
+
+\href{{http://hplgit.github.io/doconce/doc/pub/tutorial/html/tutorial.html}}{tutorial2}  
+
+\href{{http://hplgit.github.io/teamods/writing_reports/index.html}}{demo}  
+
+\href{{http://hplgit.github.io/doconce/doc/pub/quickref/quickref.html}}{quickref}  
+
+\href{{http://hplgit.github.io/doconce/doc/web/index.html}}{github website}  
+
+\href{{http://hplgit.github.io/doconce/doc/pub/slides/scientific_writing-1.html}}{scientific writing}  
+
+\href{{https://github.com/hplgit/hplgit.github.com/tree/master/teamods}}{more examples}  
+
+\section{References}
+\label{sec:ref}
+
+
+
+\bibliographystyle{plain}
+\bibliography{ref/papers}
+
+
+
+
+% ------------------- end of main content ---------------
+
+
+% #ifdef PREAMBLE
+\printindex
+
+\end{document}
+% #endif
+

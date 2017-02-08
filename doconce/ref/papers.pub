@@ -1,0 +1,33 @@
+* books
+** {Python Programming on Win32}
+   key:       Hammond2000
+   author:    Mark Hammond, Andy Robinson
+   year:      2000
+   publisher: O'Reilly
+   url:       http://shop.oreilly.com/product/9781565926219.do
+   status:    published
+   isbn:      9781565926219
+   entrytype: book
+** {CATIA V5 Macro Programming With Visual Basic Script}
+   key:       Ziethen2013
+   author:    Dieter Ziethen
+   year:      2013
+   publisher: McGraw Hill
+   url:       http://www.mhprofessional.com/product.php?isbn=0071800026
+   status:    published
+   isbn:      9780071800020
+   entrytype: book
+** {A Primer on Scientific Programming With Python}
+   key:           Langtangen
+   author:        Hans Petter Langtangen
+   year:          2014
+   publisher:     Springer
+   pages:         872
+   url:           http://www.springer.com/us/book/9783642549588
+   status:        published
+   isbn:          978-3-642-54958-8
+   abstract:      The book serves as a first introduction to computer programming of scientific applications, using the high-level Python language. The exposition is example and problem-oriented, where the applications are taken from mathematics, numerical calculus, statistics, physics, biology and finance. The book teaches "Matlab-style" and procedural programming as well as object-oriented programming. High school mathematics is a required background and it is advantageous to study classical and numerical one-variable calculus in parallel with reading this book. Besides learning how to program computers, the reader will also learn how to solve mathematical problems, arising in various branches of science and engineering, with the aid of numerical methods and programming. By blending programming, mathematics and scientific applications, the book lays a solid foundation for practicing computational science.
+   mendeley-tags: computation,python
+   edition:       4
+   keywords:      computation,python
+   entrytype:     book

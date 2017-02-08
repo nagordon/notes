@@ -1,0 +1,8 @@
+*.pyc
+*.xml
+*.json
+.ipynb_checkpoints
+*idx
+*aux
+*out
+*log

@@ -1,0 +1,770 @@
+<!--
+Automatically generated HTML file from DocOnce source
+(https://github.com/hplgit/doconce/)
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="DocOnce: https://github.com/hplgit/doconce/" />
+<meta name="description" content="Neals First DocOnce Publication">
+
+<title>Neals First DocOnce Publication</title>
+
+
+<style type="text/css">
+
+/* Builds on
+   http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   Many changes for DocOnce by Hans Petter Langtangen.
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q {	quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table {	border-collapse: collapse; border-spacing: 0; }
+
+body {
+  font-size: 1em;
+  line-height: 1.5;
+  background: #e7e7e7 url(https://cdn.rawgit.com/hplgit/num-methods-for-PDEs/master/doc/web/images/body-bg.png) 0 0 repeat;
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  color: #6d6d6d;
+  width: 620px;
+  margin: 0 auto;
+}
+
+pre, code {
+  font-family: "Monospace";
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+code {
+  border: solid 2px #ddd;
+  padding: 0 3px;
+}
+
+pre {
+  padding: 20px;
+  color: #222;
+  text-shadow: none;
+  overflow: auto;
+  border: solid 4px #ddd;
+}
+
+a { color: #d5000d; }
+a:hover { color: #c5000c; }
+ul, ol, dl { margin-bottom: 20px; }
+
+hr {
+  height: 1px;
+  line-height: 1px;
+  margin-top: 1em;
+  padding-bottom: 1em;
+  border: none;
+}
+
+b, strong { font-weight: bold; }
+em { font-style: italic; }
+table { width: 100%; border: 1px solid #ebebeb; }
+th { font-weight: 500; }
+td { border: 4px solid #ddd; text-align: center; font-weight: 300; }
+
+/* red color: #d5000d; /*black color: #303030; gray is default */
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #303030;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #303030;
+}
+
+h3 { font-size: 18px; }
+p { font-weight: 300; margin-bottom: 20px; margin-top: 12px; }
+a { text-decoration: none; }
+p a { font-weight: 400; }
+
+blockquote {
+  font-size: 1.6em;
+  border-left: 10px solid #e9e9e9;
+  margin-bottom: 20px;
+  padding: 0 0 0 30px;
+}
+
+ul li {
+  list-style: disc inside;
+  padding-left: 20px;
+}
+
+ol li {
+  list-style: decimal inside;
+  padding-left: 3px;
+}
+
+dl dt {
+  color: #303030;
+}
+
+footer {
+  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+footer a {
+  color: #666;
+}
+footer a:hover {
+  color: #444;
+}
+
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+div { text-align: justify; text-justify: inter-word; }
+</style>
+
+
+</head>
+
+<!-- tocinfo
+{'highest level': 1,
+ 'sections': [(' Introduction ', 1, 'sec:intro', 'sec:intro'),
+              (' SubIntro ', 2, None, '___sec1'),
+              (' SubSubIntro ', 3, None, '___sec2'),
+              (' Headings, Labels, and References ', 1, 'sec:hlr', 'sec:hlr'),
+              (' my subheading ', 2, None, '___sec4'),
+              (' my subsubheading ', 3, None, '___sec5'),
+              (' Code ', 1, 'sec:code', 'sec:code'),
+              (' Lists ', 1, None, '___sec7'),
+              (' Comments and Footnotes ', 1, 'sec:com', 'sec:com'),
+              (' Math, Latex ', 1, 'sec:math', 'sec:math'),
+              (' Images ', 1, 'sec:img', 'sec:img'),
+              (' File Structure ', 1, 'sec:fil', 'sec:fil'),
+              (' Help ', 1, None, '___sec12'),
+              (' Coverting Files ', 1, None, '___sec13'),
+              (' Installation ', 1, 'sec:install', 'sec:install'),
+              (' Sundries ', 1, None, '___sec15'),
+              (' Handy Links ', 1, 'sec:links', 'sec:links'),
+              (' References ', 1, 'sec:ref', 'sec:ref')]}
+end of tocinfo -->
+
+<body>
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: {
+     equationNumbers: {  autoNumber: "AMS"  },
+     extensions: ["AMSmath.js", "AMSsymbols.js", "autobold.js", "color.js"]
+  }
+});
+</script>
+<script type="text/javascript"
+ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+    
+<!-- ------------------- main content ---------------------- -->
+
+
+
+<center><h1>Neals First DocOnce Publication</h1></center>  <!-- document title -->
+
+<p>
+<!-- author(s): Neal Gordon -->
+
+<center>
+<b>Neal Gordon</b>  (<tt>nealagordon at gmail.com</tt>)
+</center>
+
+<p>
+<!-- institution -->
+
+<center><b>ifcuriousthenlearn</b></center>
+<p>
+<center><h4>Jun 4, 2015</h4></center> <!-- date -->
+<p>
+<b>Summary.</b> My goal here is to learn the package <a href="http://hplgit.github.io/doconce/doc/web/index.html" target="_self">doconce</a>, which is a markup syntax for creating scientific documents with many different types of outputs, including markdown, html, ipython notebooks, pdfs, and docx files. What's wrong with markdown? The short answer is nothing, it is great and important to know, however, some features that a needed for more advanced features, like figure/equation references, as well as including citations is needed, and haven't any good solution for that. 
+All the up-to-date source code and various document formats can be found on the <a href="https://github.com/nagordon/technotes/tree/master/doconce" target="_self">github repository</a>.
+
+<h2>
+Table of contents</h2>
+
+<p>
+<a href="#sec:intro"> Introduction </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec1"> SubIntro </a><br>
+<a href="#sec:hlr"> Headings, Labels, and References </a><br>
+&nbsp; &nbsp; &nbsp; <a href="#___sec4"> my subheading </a><br>
+<a href="#sec:code"> Code </a><br>
+<a href="#___sec7"> Lists </a><br>
+<a href="#sec:com"> Comments and Footnotes </a><br>
+<a href="#sec:math"> Math, Latex </a><br>
+<a href="#sec:img"> Images </a><br>
+<a href="#sec:fil"> File Structure </a><br>
+<a href="#___sec12"> Help </a><br>
+<a href="#___sec13"> Coverting Files </a><br>
+<a href="#sec:install"> Installation </a><br>
+<a href="#___sec15"> Sundries </a><br>
+<a href="#sec:links"> Handy Links </a><br>
+<a href="#sec:ref"> References </a><br>
+</p>
+
+<h1 id="sec:intro">Introduction</h1>
+
+<p>
+DocOnce is a lightweight markup language that is pure python, tso that it will work on any OS
+the source markdown files have extension *.do.txt
+each document should have the structure with a fig and src directory to keep images and code. The make.sh file is used to generate various documents with a lot of of custom settings.
+
+<h2 id="___sec1">SubIntro </h2>
+Since I have began blogging, I realized the importance of learning html, markdown, etc and now have been trying my best to learn tex and LaTeX. While doconce is a little buggy, it is still under active development and have found it very useful for learning how all the various markups work together. I still find microsoft products very handy, especially v2013, but when working with the web and version control systems, plain text sources files are great! So, if you haven't heard of doconce yet, check it out!
+
+<h3 id="___sec2">SubSubIntro </h3>
+
+The main goal here is to generate an example document to help me learn and show you the syntax of doconce. Hopefully it will make sense and the errors are minimal! This is still a work in progress.
+
+<h1 id="sec:hlr">Headings, Labels, and References</h1>
+
+<p>
+For simple documents, chapters are not necessary, so only 7= are necessary to create a header for the section.
+
+<p>
+
+<!-- code=text typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">chapter	         ========= Heading ========= (9 =)
+section	         ======= Heading ======= (7 =)
+subsection	     ===== Heading ===== (5 =)
+subsubsection	 === Heading === (3 =)
+paragraph	     __Heading.__ (2 _)
+abstract	     __Abstract.__ Running text...
+appendix	     ======= Appendix: heading ======= (7 =)
+appendix	     ===== Appendix: heading ===== (5 =)
+</pre></div>
+<p>
+Labels are created with any text in curly braces and prefixed with label and then referenced with prefix ref. The ref must be enclosed with paranthesis. References can be made within the document with (<a href="#sec:intro">Introduction</a>). Figures are referenced using (<a href="#fig:myfig2">2</a>), and to reference a section of the document like the code the section <a href="#sec:code">Code</a>  or the bibliography can be created using the prefix cite. One example of what doconce can be used for is an entire book <a href="#Langtangen">[1]</a>. Also, equations can be referenced in a similar fashion, such as \eqref{eqn:tsaihill}.
+
+<p>
+Index of keywords can be defined with 
+<p>
+
+<!-- code=text typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">index{name}
+</pre></div>
+<p>
+so that we have index{testindex}, and my favorite language index{python}
+
+<p>
+
+<!-- code=text typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"># define location label
+label{sec:intro}
+
+# reference location label
+\eqref{sec:intro}
+
+# reference citations
+cite{Langtangen}
+</pre></div>
+
+<h2 id="___sec4">my subheading </h2>
+testing the subheading
+
+<h3 id="___sec5">my subsubheading </h3>
+
+finally, the smallest heading we can have
+
+<p>
+<!-- Lines beginning with # are comment lines -->
+
+<h1 id="sec:code">Code</h1>
+
+<p>
+Code can be identified in the text by enclosing the text in single back quotes, as in
+
+<p>
+
+<!-- code=bash (!bc shcod) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span style="color: #bb8844">&#39;sudo apt-get install numpy&#39;</span>
+</pre></div>
+<p>
+And an inline rendering of that is <code>sudo apt-get install numpy</code>. Which is handy when you do not want to start a new line everytime.
+
+<p>
+
+<!-- code=python (!bc pycod) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span style="color: #999988; font-style: italic"># a comment in my python code</span>
+<span style="font-weight: bold">def</span> <span style="color: #990000; font-weight: bold">f</span>(x):
+    <span style="font-weight: bold">return</span> <span style="color: #009999">1</span> <span style="font-weight: bold">+</span> x
+</pre></div>
+<p>
+Also code can be inserted with this <code>@@@CODE src/hiwrld.py</code>
+
+<p>
+
+<!-- code=python (!bc pypro) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span style="color: #999988; font-style: italic"># Here is an example python program</span>
+
+x <span style="font-weight: bold">=</span> <span style="color: #bb8844">&#39;hi doconce world&#39;</span>
+
+<span style="font-weight: bold">def</span> <span style="color: #990000; font-weight: bold">hiworld</span>(x):
+    <span style="font-weight: bold">print</span>(x)
+
+<span style="color: #999988; font-style: italic"># thats all</span>
+</pre></div>
+<p>
+This way, all the code can be kept in a usable form or in inserted easily if changes
+
+<p>
+Here is the bash file that is used to generate all the various kinds of output files
+<p>
+
+<!-- code=bash (!bc shpro) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span style="color: #999988; font-style: italic">#!/bin/sh</span>
+
+
+<span style="color: #999988; font-style: italic"># create a variable of the doconce file</span>
+<span style="color: #008080">dofile</span><span style="font-weight: bold">=</span><span style="color: #bb8844">&#39;doconce_notes&#39;</span>
+
+<span style="color: #999988; font-style: italic">########################## cleanup </span>
+<span style="color: #999988; font-style: italic">####remove the pdfs and tex file that will be overwritten</span>
+rm <span style="color: #008080">$dofile</span>.pdf
+
+<span style="color: #999988; font-style: italic">########################## Latex </span>
+<span style="color: #999988; font-style: italic">#### Create a plain tex file</span>
+doconce format pdflatex <span style="color: #008080">$dofile</span> <span style="color: #bb8844">\</span>
+			--latex_code_style<span style="font-weight: bold">=</span>vrb <span style="color: #bb8844">\</span>
+			--latex_title_layout<span style="font-weight: bold">=</span>std <span style="color: #bb8844">\</span>
+			--tables2csv  
+			<span style="color: #999988; font-style: italic">#--latex_code_style=vrb</span>
+
+rm -f *.aux
+pdflatex <span style="color: #008080">$dofile</span>.tex
+bibtex <span style="color: #008080">$dofile</span>
+pdflatex <span style="color: #008080">$dofile</span>.tex
+pdflatex <span style="color: #008080">$dofile</span>.tex
+mv <span style="color: #008080">$dofile</span>.pdf <span style="color: #008080">$dofile</span>.simple.pdf
+
+<span style="color: #999988; font-style: italic">#### Create tex file with fancy formatting and custom latex</span>
+doconce format pdflatex <span style="color: #008080">$dofile</span> <span style="color: #bb8844">\</span>
+			--latex_code_style<span style="font-weight: bold">=</span>pyg <span style="color: #bb8844">\</span>
+			--latex_title_layout<span style="font-weight: bold">=</span>std <span style="color: #bb8844">\</span>
+			--latex_preamble<span style="font-weight: bold">=</span>customization.tex
+			<span style="color: #999988; font-style: italic">#--latex_todonotes  # includes inline notes</span>
+
+<span style="color: #999988; font-style: italic">#### helps position the figures</span>
+doconce replace <span style="color: #bb8844">&#39;begin{figure}[t]&#39;</span> <span style="color: #bb8844">&#39;begin{figure}&#39;</span> <span style="color: #008080">$dofile</span>.tex
+
+<span style="color: #999988; font-style: italic"># create the pdf of the tex file	</span>
+rm -f *.aux				
+pdflatex -shell-escape -interaction<span style="font-weight: bold">=</span>batchmode <span style="color: #008080">$dofile</span>.tex
+bibtex <span style="color: #008080">$dofile</span>
+pdflatex -shell-escape -interaction<span style="font-weight: bold">=</span>batchmode <span style="color: #008080">$dofile</span>.tex
+pdflatex -shell-escape -interaction<span style="font-weight: bold">=</span>batchmode <span style="color: #008080">$dofile</span>.tex
+mv <span style="color: #008080">$dofile</span>.pdf <span style="color: #008080">$dofile</span>.1col.pdf
+
+<span style="color: #999988; font-style: italic">#### creates a two column article</span>
+python insert_tex.py <span style="color: #008080">$dofile</span>.tex
+<span style="color: #999988; font-style: italic"># create the pdf of the tex file	</span>
+rm -f *.aux				
+pdflatex -shell-escape -interaction<span style="font-weight: bold">=</span>batchmode <span style="color: #008080">$dofile</span>.tex
+bibtex <span style="color: #008080">$dofile</span>
+pdflatex -shell-escape -interaction<span style="font-weight: bold">=</span>batchmode <span style="color: #008080">$dofile</span>.tex
+pdflatex -shell-escape -interaction<span style="font-weight: bold">=</span>batchmode <span style="color: #008080">$dofile</span>.tex
+mv <span style="color: #008080">$dofile</span>.pdf <span style="color: #008080">$dofile</span>.2col.pdf
+
+<span style="color: #999988; font-style: italic">########################## Markdown </span>
+
+<span style="color: #999988; font-style: italic">#create the github markdown from the doconce_notes.do.txt file</span>
+doconce format pandoc <span style="color: #008080">$dofile</span> --github_md
+
+<span style="color: #999988; font-style: italic">#From markdown to docx</span>
+pandoc -s -S <span style="color: #008080">$dofile</span>.md -o <span style="color: #008080">$dofile</span>.md.docx
+
+<span style="color: #999988; font-style: italic">########################## ipython notebook </span>
+
+<span style="color: #999988; font-style: italic"># create ipython notebook file</span>
+doconce format ipynb <span style="color: #008080">$dofile</span>
+
+<span style="color: #999988; font-style: italic"># create an html file from the ipynb</span>
+ipython nbconvert <span style="color: #008080">$dofile</span>.ipynb
+mv <span style="color: #008080">$dofile</span>.html <span style="color: #008080">$dofile</span>.ipynb.html
+wkhtmltopdf <span style="color: #008080">$dofile</span>.ipynb.html <span style="color: #008080">$dofile</span>.ipynb.pdf
+
+<span style="color: #999988; font-style: italic">########################## Tables </span>
+doconce format --tables2csv
+<span style="color: #999988; font-style: italic">########################## HTML </span>
+
+<span style="color: #999988; font-style: italic"># create a styled html file</span>
+doconce format html <span style="color: #008080">$dofile</span> --html_style<span style="font-weight: bold">=</span>tactile-black
+wkhtmltopdf <span style="color: #008080">$dofile</span>.html <span style="color: #008080">$dofile</span>.html.pdf
+
+
+<span style="color: #999988; font-style: italic">########################## cleanup </span>
+
+doconce clean
+
+<span style="color: #999988; font-style: italic"># remove all the files that are generated during doconce make</span>
+rm *.toc *.log *.aux *.out *.idx *.bbl *.blg *.gz
+
+<span style="color: #999988; font-style: italic"># removes the trash directory</span>
+rm -R Trash
+</pre></div>
+
+<h1 id="___sec7">Lists </h1>
+
+<p>
+Here are some examples of lists directly from the <a href="http://hplgit.github.io/doconce/doc/pub/quickref/quickref.html" target="_self">documentation</a>
+
+<p>
+Here is a bullet list:
+
+<ul>
+ <li> item1</li>
+ <li> item2</li>
+
+<ul>
+  <li> subitem1 of item2</li>
+  <li> subitem2 of item2,
+    second line of subitem2</li>
+</ul>
+
+ <li> item3</li>
+</ul>
+
+Note that sublists are consistently indented by one or more blanks as
+shown: bullets must exactly match and continuation lines must start
+right below the line above.
+
+<p>
+Here is an enumeration list:
+
+<ol>
+<li> item1</li>
+<li> item2
+   may appear on
+   multiple lines</li>
+
+<ol>
+ <li> subitem1 of item2</li>
+ <li> subitem2 of item2</li>
+</ol>
+
+<li> item3</li>
+</ol>
+
+And finally a description list:
+
+<p>
+
+<dl>
+ <dt>keyword1:<dd> 
+   followed by
+   some text
+   over multiple
+   lines
+ <dt>keyword2:<dd> 
+   followed by text on the next line
+ <dt>keyword3:<dd> 
+   and its description may fit on one line
+</dl>
+
+<h1 id="sec:com">Comments and Footnotes</h1>
+
+<p>
+Creating comments in the text is a handy way to supplement with optional information, one way is to use an inline comment such as 
+<!-- begin inline comment -->
+<font color="red">(<b>hpl 1</b>: here I will make some remarks to the text)</font>
+<!-- end inline comment -->
+. Another way to add content is to add a footnote [<a id="link_footnote_1" href="#def_footnote_1">1</a>] is also possible.
+
+<p id="def_footnote_1"><a href="#link_footnote_1"><b>1:</b></a> The syntax for footnotes is borrowed from Extended Markdown.</p>
+
+<h1 id="sec:math">Math, Latex</h1>
+
+<p>
+inline latex can look like this 
+\( x = a_0 + \frac{1}{\displaystyle a_1 + \frac{1}{\displaystyle a_2 + \frac{1}{\displaystyle a_3 + a_4}}} \)
+and another block
+
+$$ \frac{\partial\pmb{u}}{\partial t} + \pmb{u}\cdot\nabla\pmb{u} = 0.$$
+
+<p>
+and some inline latex,  \( \frac{\partial y}{\partial x} \) everybody loves partial differentiation
+
+<p>
+and finally equations, can have a label such as 
+
+$$
+\begin{align}
+1 =  \left(\frac{\sigma_{1}}{\sigma_{1u}}\right)^{2} + \left(\frac{\sigma_{2}}{\sigma_{2u}}\right)^{2}  +  \left(\frac{\tau_{12}}{\tau_{12u}}\right)^{2}  - \left(\frac{\sigma_{1} \sigma_{2}} {\sigma_{1u} }\right) \label{eqn:tsaihill}  
+\end{align}
+$$
+
+<h1 id="sec:img">Images</h1>
+
+<p>
+This section explains how to create images. The size can be adjusted with frac and the width adjusts the width when exporting to html
+
+<p>
+for a really tiny image, we can use
+
+<p>
+<center> <!-- figure -->
+<hr class="figure">
+<center><p class="caption">Figure 1:  My favorite linux desktop with frac-0.1.  <div id="fig:myfig1"></div> </p></center>
+<p><img src="fig/mint.png" align="bottom" width=650></p>
+</center>
+
+<p>
+and for a figure that is a bit bigger, we can increase the fraction size
+
+<p>
+<center> <!-- figure -->
+<hr class="figure">
+<center><p class="caption">Figure 2:  My favorite linux desktop with frac-0.9.    <div id="fig:myfig2"></div> </p></center>
+<p><img src="fig/mint.png" align="bottom" width=650></p>
+</center>
+
+<h1 id="sec:fil">File Structure</h1>
+
+<p>
+each document should have the structure with a fig and src directory to keep images and code. The make.sh file is used to generate various documents with a lot of of custom settings
+
+<p>
+
+<!-- code=text typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">doconce_notes.do.txt
+doconce_notes.md
+doconce_notes.pdf
+fig
+	mint.png
+make.sh
+test.do.txt
+test.pdf
+</pre></div>
+
+<h1 id="___sec12">Help </h1>
+
+<p>
+help can be gotten from <code>doconce format --help</code>
+
+<h1 id="___sec13">Coverting Files </h1>
+
+<p>
+
+<!-- code=text typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">doconce format html test  # creates an html document
+doconce format pandoc test   # creates markdown
+doconce format latex test   # creates latex document
+doconce format ipynb mydoc  # results in mydoc.ipynb
+doconce format mwiki mydoc.do.txt  # creates a wiki page
+doconce format ipynb test.do  # ipython notebook
+</pre></div>
+<p>
+<a href="http://pandoc.org/index.html" target="_self">Pandoc</a> is a very powerful converter that can be used with doconce
+<p>
+
+<!-- code=text typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">#From markdown to docx
+pandoc -s -S doconce_notes.md -o doconce_notes.md.docx
+
+#From markdown to PDF:
+pandoc doconce_notes.md -o doconce_notes.md.pdf
+</pre></div>
+<p>
+For compiling and document creation, please reference the <em>make.sh</em> file in this repository
+
+<p>
+When running the make file, make sure it is executable and run it with
+
+<p>
+
+<!-- code=bash (!bc shcod) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">chmod +x make.sh
+./make.sh
+</pre></div>
+
+<h1 id="sec:install">Installation</h1>
+
+<p>
+I am using a Windows 7 laptop with
+
+<p>
+<a href="https://www.virtualbox.org/wiki/Downloads" target="_self">VirtualBox</a>
+<a href="http://www.linuxmint.com/edition.php?id=172" target="_self">Linux Mint 17.1</a>
+
+<p>
+Make sure your machine is up to date
+<p>
+
+<!-- code=bash (!bc shcod) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">sudo apt-get update <span style="font-weight: bold">&amp;&amp;</span> sudo apt-get upgrade
+</pre></div>
+<p>
+Then, install python. A barebones python install with IMHO, the best python package maanger conda, the <a href="http://conda.pydata.org/miniconda.html" target="_self">miniconda package</a> is easy and <a href="https://github.com/conda/conda" target="_self">open-source</a>
+<p>
+
+<!-- code=bash (!bc shcod) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%"><span style="color: #999988; font-style: italic"># download</span>
+wget https://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh
+<span style="color: #999988; font-style: italic"># make sure shell file is excutable</span>
+chmod +x Miniconda-latest-Linux-x86_64.sh  
+
+<span style="color: #999988; font-style: italic"># Execute</span>
+./Miniconda-latest-Linux-x86_64.sh  
+</pre></div>
+<p>
+I've gotten an error in the past with Linux Mint that conda command does not exist. This should fix it by creating a link with conda to the bin directory. 
+<p>
+
+<!-- code=bash (!bc shcod) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">sudo ln ~/anaconda/bin/conda /usr/local/bin/
+</pre></div>
+<p>
+If miniconda is used, be sure to install the ipython notebook if you plan on using it
+<p>
+
+<!-- code=bash (!bc shcod) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">conda install ipython-notebook
+</pre></div>
+<p>
+Next, make sure all the dependecies are installed. Latex is an integral part of doconce, as well as pandoc for converting markdown files and the like
+<p>
+
+<!-- code=bash (!bc shcod) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">sudo apt-get install texlive-full
+sudo apt-get install pandoc
+</pre></div>
+<p>
+Finally, we are ready to install doconce. There is a conda package that makes the installation very easy. 
+<p>
+
+<!-- code=bash (!bc shcod) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">conda install --channel johannr doconce
+</pre></div>
+<p>
+Another option is to download a bash script <a href="https://raw.githubusercontent.com/hplgit/doconce/master/doc/src/manual/install_doconce.sh" target="_self">here</a> and use it to install
+<p>
+
+<!-- code=bash (!bc shcod) typeset with pygments style "trac" -->
+<div class="highlight" style="background: #ffffff"><pre style="line-height: 125%">chmod +x install_doconce.sh  
+./bash install_doconce.sh
+</pre></div>
+
+<h1 id="___sec15">Sundries </h1>
+
+<p>
+DO NOT USE UNDERSCORES IN ANY PART OF YOUR DOCUMENT, ONLY FOR MARKDOWN.
+
+<h1 id="sec:links">Handy Links</h1>
+
+<p>
+Examples of a couple of the output files can be found here
+<a href="https://github.com/nagordon/technotes/blob/master/doconce/doconce_notes.1col.pdf" target="_self">doconcenotes1colpdf</a> , <a href="https://github.com/nagordon/technotes/blob/master/doconce/doconce_notes.2col.pdf" target="_self">doconcenotes2colpdf</a> , <a href="https://github.com/nagordon/technotes/blob/master/doconce/doconce_notes.html.pdf" target="_self">htmlblack</a>, <a href="https://github.com/nagordon/technotes/blob/master/doconce/doconce_notes.ipynb.pdf" target="_self">htmlipynb</a>, and, although not great, <a href="https://github.com/nagordon/technotes/blob/master/doconce/doconce_notes.md.docx" target="_self">doconcedocx</a>.
+
+<p>
+main site <a href="https://github.com/hplgit/doconce" target="_self"><tt>https://github.com/hplgit/doconce</tt></a>
+
+<p>
+<a href="http://hplgit.github.io/doconce/doc/pub/tutorial/tutorial.html" target="_self">tutorial</a>
+
+<p>
+<a href="http://hplgit.github.io/doconce/doc/pub/tutorial/html/tutorial.html" target="_self">tutorial2</a>
+
+<p>
+<a href="http://hplgit.github.io/teamods/writing_reports/index.html" target="_self">demo</a>
+
+<p>
+<a href="http://hplgit.github.io/doconce/doc/pub/quickref/quickref.html" target="_self">quickref</a>
+
+<p>
+<a href="http://hplgit.github.io/doconce/doc/web/index.html" target="_self">github website</a>
+
+<p>
+<a href="http://hplgit.github.io/doconce/doc/pub/slides/scientific_writing-1.html" target="_self">scientific writing</a>
+
+<p>
+<a href="https://github.com/hplgit/hplgit.github.com/tree/master/teamods" target="_self">more examples</a>
+
+<h1 id="sec:ref">References</h1>
+
+<p>
+<!-- begin bibliography -->
+
+<ol>
+ <li> <div id="Langtangen"></div> <b>H. P. Langtangen</b>. 
+    <em>A Primer on Scientific Programming With Python</em>,
+    4 edition,
+    Springer,
+    2014,
+    <a href="http://www.springer.com/us/book/9783642549588" target="_self"><tt>http://www.springer.com/us/book/9783642549588</tt></a>.</li>
+</ol>
+
+<!-- end bibliography -->
+
+<p>
+
+<!-- ------------------- end of main content --------------- -->
+
+
+</body>
+</html>
+    
+

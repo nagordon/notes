@@ -1,0 +1,1 @@
+pyinstaller quitter.py --onefile

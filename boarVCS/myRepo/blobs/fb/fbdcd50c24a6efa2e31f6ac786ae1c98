@@ -1,0 +1,374 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# BoarVCS\n",
+    "Boar is a version control system written in python designed to be used with large binary files. \n",
+    "\n",
+    "This is my first attempt at using it. Lets say I have a few files I want to keep track of with a history. My work directory is **boarCVS** and I have a folder **to_add** that I want to track"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 29,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "u'C:\\\\Users\\\\Neal\\\\Desktop\\\\boarVCS'"
+      ]
+     },
+     "execution_count": 29,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "pwd"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " Volume in drive C has no label.\n",
+      " Volume Serial Number is 0C1E-14A7\n",
+      "\n",
+      " Directory of C:\\Users\\Neal\\Desktop\\boarVCS\n",
+      "\n",
+      "09/16/2015  08:02 PM    <DIR>          .\n",
+      "09/16/2015  08:02 PM    <DIR>          ..\n",
+      "09/16/2015  07:44 PM    <DIR>          .ipynb_checkpoints\n",
+      "09/16/2015  08:02 PM    <DIR>          to_add\n",
+      "               0 File(s)              0 bytes\n",
+      "               4 Dir(s)  30,365,626,368 bytes free\n"
+     ]
+    }
+   ],
+   "source": [
+    "ls"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "the first step is to create a repository. This is where all the files are stored"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Finished in 0.01 seconds\n"
+     ]
+    }
+   ],
+   "source": [
+    "!boar mkrepo repo1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "C:\\Users\\Neal\\Desktop\\boarVCS\\repo1\n"
+     ]
+    }
+   ],
+   "source": [
+    "cd repo1/"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " Volume in drive C has no label.\n",
+      " Volume Serial Number is 0C1E-14A7\n",
+      "\n",
+      " Directory of C:\\Users\\Neal\\Desktop\\boarVCS\\repo1\n",
+      "\n",
+      "09/16/2015  08:02 PM    <DIR>          .\n",
+      "09/16/2015  08:02 PM    <DIR>          ..\n",
+      "09/16/2015  08:02 PM    <DIR>          blobs\n",
+      "09/16/2015  08:02 PM    <DIR>          derived\n",
+      "09/16/2015  08:02 PM    <DIR>          queue\n",
+      "09/16/2015  08:02 PM             2,888 recovery.txt\n",
+      "09/16/2015  08:02 PM                37 repoid.txt\n",
+      "09/16/2015  08:02 PM    <DIR>          sessions\n",
+      "09/16/2015  08:02 PM    <DIR>          tmp\n",
+      "09/16/2015  08:02 PM                 1 version.txt\n",
+      "               3 File(s)          2,926 bytes\n",
+      "               7 Dir(s)  30,365,618,176 bytes free\n"
+     ]
+    }
+   ],
+   "source": [
+    "ls"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "C:\\Users\\Neal\\Desktop\\boarVCS\n"
+     ]
+    }
+   ],
+   "source": [
+    "cd .."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "The next step is to create a session. A session is a division of the repo. The session data is stored in the repo1 directory"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "New session 'session1' was created successfully\n",
+      "Finished in 0.02 seconds\n"
+     ]
+    }
+   ],
+   "source": [
+    "!boar --repo=repo1 mksession session1"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Next we import our current files"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Looking for files: 1 \n",
+      "Looking for files: 4 \n",
+      "Verifying checksum cache: 1 \n",
+      "Verifying checksum cache: 4 \n",
+      "\n",
+      "Scanning: 4 files and 0 Mb remaining (0.0% complete, 0.0 Mb/s)\n",
+      "                                                              \n",
+      "Scanning: 0 files and 0 Mb remaining (100.0% complete, 0.0 Mb/s)\n",
+      "Loading session... done\n",
+      "Calculating changes... done\n",
+      "Sending .ipynb_checkpoints/BoarVCS-checkpoint.ipynb\n",
+      "Sending BoarVCS.ipynb\n",
+      "Sending boarVCS.md\n",
+      "Sending test.docx\n",
+      "Checked in session id 2\n",
+      "Finished in 0.05 seconds\n"
+     ]
+    }
+   ],
+   "source": [
+    "!boar --repo=repo1 import to_add session1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "C:\\Users\\Neal\\Desktop\\boarVCS\\to_add\n"
+     ]
+    }
+   ],
+   "source": [
+    "cd to_add"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ERROR: This directory is not a boar workdir\n",
+      "Finished in 0.0 seconds\n"
+     ]
+    }
+   ],
+   "source": [
+    "!boar status"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "ERROR: This directory is not a boar workdir\n",
+      "Finished in 0.0 seconds\n"
+     ]
+    }
+   ],
+   "source": [
+    "!boar ci"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "A quick reference to the commands boar has can be found by type this"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {
+    "collapsed": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Boar version boar.16-Nov-2012\n",
+      "Usage: boar <command> \n",
+      "\n",
+      "Commands:\n",
+      "ci        Commit changes in a work directory\n",
+      "clone     Create or update a clone of a repository\n",
+      "co        Check out files from the repository\n",
+      "diffrepo  Check if two repositories are identical\n",
+      "getprop   Get session properties, such as file ignore lists\n",
+      "info      Show some information about the current workdir\n",
+      "import    Import the contents of a folder into your repository\n",
+      "list      Show the contents of a repository or snapshot\n",
+      "locate    Check if some non-versioned files are already present in a repository\n",
+      "log       Show changes and log messages\n",
+      "ls        Show the contents of a specific sub directory of a snapshot\n",
+      "mkrepo    Create a new repository\n",
+      "mksession Create a new session\n",
+      "setprop   Set session properties, such as file ignore lists\n",
+      "serve     Make a repository accessible over the network\n",
+      "status    List any changes in the current work directory\n",
+      "update    Update the current work directory from the repository\n",
+      "verify    Verify the integrity of the repository\n",
+      "\n",
+      "For most commands, you can type \"boar <command> --help\" to get more\n",
+      "information. The full command reference is available online at\n",
+      "http://code.google.com/p/boar/wiki/CommandReference\n",
+      "\n",
+      "Finished in 0.0 seconds\n"
+     ]
+    }
+   ],
+   "source": [
+    "!boar"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 0
+}

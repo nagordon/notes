@@ -1,0 +1,1 @@
+pyinstaller combine.py --onefile

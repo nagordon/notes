@@ -1,0 +1,1 @@
+pyinstaller findandreplacedlg.py --onefile
