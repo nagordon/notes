@@ -1,1 +1,0 @@
- set the default EOL in notepad++ via "Settings" -> "Preferences" -> "New Document/Default Directory" then select "Unix/OSX"
