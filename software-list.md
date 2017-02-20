@@ -64,6 +64,9 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
 ### optimiaztion
  * http://openmdao.org/
 
+## composites fea
+* http://www.lu.fme.vutbr.cz/~schor/pages/compost.html
+
 ### Open source FEA  
  * Trying to find an eopn-source alternative for stress, thermal fea  
  * [getfem++](http://download.gna.org/getfem/html/homepage/)  
