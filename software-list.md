@@ -32,6 +32,7 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
  * https://github.com/TMacquart/OptiBLESS
  * https://femci.gsfc.nasa.gov/hcplate/
  * http://www.xflr5.com
+ * http://www.pdas.com/aerosoft.html
 
 ### online courses  
  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/
