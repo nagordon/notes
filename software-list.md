@@ -274,13 +274,20 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
 
 
 ## Static HTML Site Generators
-* https://www.getlektor.com/
-* [pelican](http://blog.getpelican.com/)
-* mkdocs
-* hyde
+
+### Blogs
+* [pelican](http://blog.getpelican.com/)  
 * https://getnikola.com/
-* http://hyde.github.io/
-* [hugo](http://gohugo.io/)
+
+### Static site generator for photos
+* https://www.getlektor.com/
+* https://thumbsup.github.io/
+
+### documentation
+* http://www.mkdocs.org/
+
+
+
 
 
 ## Data Visualization
