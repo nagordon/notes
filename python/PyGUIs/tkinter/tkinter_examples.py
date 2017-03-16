@@ -8,6 +8,9 @@ Created on Thu Mar 16 08:50:46 2017
 http://www.tkdocs.com/tutorial/concepts.html
 https://docs.python.org/3.5/library/tkinter.html
 http://effbot.org/tkinterbook/tkinter-index.htm
+http://www.java2s.com/Code/Python/GUI-Tk/
+https://github.com/dmnfarrell/pandastable
+https://github.com/dmnfarrell/tkintertable
 
 python 3.5
 """
@@ -557,3 +560,111 @@ myapp.master.maxsize(1000, 400)
 
 # start the program
 myapp.mainloop()
+
+
+#==============================================================================
+# grid
+#==============================================================================
+from tkinter import *
+
+root = Tk()
+
+height = 5
+width = 5
+for i in range(height): #Rows
+    for j in range(width): #Columns
+        b = Entry(root, text="")
+        b.grid(row=i, column=j)
+
+mainloop()
+
+
+#==============================================================================
+# label grid
+#==============================================================================
+import tkinter as tk
+
+class ExampleApp(tk.Tk):
+    def __init__(self):
+        tk.Tk.__init__(self)
+        t = SimpleTable(self, 10,2)
+        t.pack(side="top", fill="x")
+        t.set(0,0,"Hello, world")
+
+class SimpleTable(tk.Frame):
+    def __init__(self, parent, rows=10, columns=2):
+        # use black background so it "peeks through" to 
+        # form grid lines
+        tk.Frame.__init__(self, parent, background="black")
+        self._widgets = []
+        for row in range(rows):
+            current_row = []
+            for column in range(columns):
+                label = tk.Label(self, text="%s/%s" % (row, column), 
+                                 borderwidth=0, width=10)
+                label.grid(row=row, column=column, sticky="nsew", padx=1, pady=1)
+                current_row.append(label)
+            self._widgets.append(current_row)
+
+        for column in range(columns):
+            self.grid_columnconfigure(column, weight=1)
+
+
+    def set(self, row, column, value):
+        widget = self._widgets[row][column]
+        widget.configure(text=value)
+
+if __name__ == "__main__":
+    app = ExampleApp()
+    app.mainloop()
+    
+
+
+#==============================================================================
+# tree view
+#==============================================================================
+try:
+    from Tkinter import *
+    from ttk import *
+except ImportError:  # Python 3
+    from tkinter import *
+    from tkinter.ttk import *
+
+
+class App(Frame):
+
+    def __init__(self, parent):
+        Frame.__init__(self, parent)
+        self.CreateUI()
+        self.LoadTable()
+        self.grid(sticky = (N,S,W,E))
+        parent.grid_rowconfigure(0, weight = 1)
+        parent.grid_columnconfigure(0, weight = 1)
+
+    def CreateUI(self):
+        tv = Treeview(self)
+        tv['columns'] = ('starttime', 'endtime', 'status')
+        tv.heading("#0", text='Sources', anchor='w')
+        tv.column("#0", anchor="w")
+        tv.heading('starttime', text='Start Time')
+        tv.column('starttime', anchor='center', width=100)
+        tv.heading('endtime', text='End Time')
+        tv.column('endtime', anchor='center', width=100)
+        tv.heading('status', text='Status')
+        tv.column('status', anchor='center', width=100)
+        tv.grid(sticky = (N,S,W,E))
+        self.treeview = tv
+        self.grid_rowconfigure(0, weight = 1)
+        self.grid_columnconfigure(0, weight = 1)
+
+    def LoadTable(self):
+        self.treeview.insert('', 'end', text="First", values=('10:00',
+                             '10:10', 'Ok'))
+
+def main():
+    root = Tk()
+    App(root)
+    root.mainloop()
+
+if __name__ == '__main__':
+    main()
