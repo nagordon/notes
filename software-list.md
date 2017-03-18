@@ -287,13 +287,14 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
 * http://www.mkdocs.org/
 
 
-
-
-
 ## Data Visualization
 * http://orange.biolab.si/
 * http://www.graphviz.org/
 * https://gephi.org/
+* http://home.gna.org/veusz/
+* http://scidavis.sourceforge.net/
+* http://dmnfarrell.github.io/pandastable/
+
 
 ## python data Visualization
 
