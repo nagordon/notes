@@ -258,6 +258,7 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
  * http://sfepy.org/doc-devel/index.htmlhttp://hplgit.github.io/homepage/software.html  
  * http://caelinux.com/CMS/  
  * http://matplotlib.org/users/beginner.html
+ * http://www.gnuplot.info/
 
 ### Sundries
 * https://github.com/nagordon/ME701
