@@ -70,6 +70,7 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
 
 ### Open source FEA  
  * Trying to find an eopn-source alternative for stress, thermal fea  
+ * [calfem for python and matlab](https://github.com/CALFEM/calfem-python)
  * [getfem++](http://download.gna.org/getfem/html/homepage/)  
  * [elmer](https://csc.fi/web/elmer/application-examples)  
  * [freefem++](https://www.ljll.math.upmc.fr/lehyaric/ffjs/15.6/ffjs.htm)  
