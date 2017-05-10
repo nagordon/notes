@@ -446,6 +446,7 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
  * [ProjectLibre](http://www.projectlibre.org/)  
 
 ## Business Applications / Word Processors / Spreadsheets / CRM / Project Management  
+* [aras plm](http://www.aras.com/)  
 * [erpal](http://www.erpal.info/)  
 * [calligra](https://www.calligra.org/learn-more/)  
 * [phpoffice](https://github.com/PHPOffice)  
