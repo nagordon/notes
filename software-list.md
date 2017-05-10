@@ -69,7 +69,8 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
 * http://www.lu.fme.vutbr.cz/~schor/pages/compost.html
 
 ### Open source FEA  
- * Trying to find an eopn-source alternative for stress, thermal fea  
+ * Trying to find an eopn-source alternative for stress, thermal fea 
+ * [kratos](http://www.cimne.com/kratos/default.asp)  
  * [calfem for python and matlab](https://github.com/CALFEM/calfem-python)
  * [getfem++](http://download.gna.org/getfem/html/homepage/)  
  * [elmer](https://csc.fi/web/elmer/application-examples)  
