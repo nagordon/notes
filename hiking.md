@@ -23,3 +23,17 @@ http://www.backpacker.com/trips/california/los-angeles/los-angeles-zuma-canyon-l
 This one is way up north of San Francisco, but it looks pretty cool—you kind of need a tide table!  The Lost Coast Trail:  
 http://www.backpacker.com/destinations-stories/coastal-lost-coast-trail-ca/  
 
+
+Pine Creek
+
+Baxter Lake - https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/fseprd498769.pdf
+
+coastal hikes
+Black Cone Trail - https://www.trails.com/tcatalog_trail.aspx?trailid=BGS121-215
+
+no permits
+Cottonwood basin Loop - https://www.trails.com/tcatalog_trail.aspx?trailid=BGS121-239
+
+sequoia crystal cave tour
+https://www.recreation.gov/tourDetails.do?contractCode=NRSO&parkId=135840&tourId=423871&cat=1
+
