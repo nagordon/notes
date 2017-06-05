@@ -4,6 +4,10 @@ keep syntax and user notes for anything I cant keep in my head
 
 - - - -
 
+to see who edited a windows file last, check ```owner```  
+
+- - - -
+
 # Windows Search
 
 
