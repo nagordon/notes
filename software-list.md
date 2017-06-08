@@ -36,11 +36,11 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
 
 ### online courses  
  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/
-  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-90-computational-methods-in-aerospace-engineering-spring-2014/
-  * https://ocw.mit.edu/courses/mechanical-engineering/2-081j-plates-and-shells-spring-2007/
-  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/
-  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/
-  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-20-structural-mechanics-fall-2002/
+ * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-90-computational-methods-in-aerospace-engineering-spring-2014/
+ * https://ocw.mit.edu/courses/mechanical-engineering/2-081j-plates-and-shells-spring-2007/
+ * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-21-techniques-for-structural-analysis-and-design-spring-2005/
+ * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-01-unified-engineering-i-ii-iii-iv-fall-2005-spring-2006/
+ * https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-20-structural-mechanics-fall-2002/
  * https://ocw.tudelft.nl/courses/advanced-design-optimization-composite-structures/  
  * http://ocw.mit.edu/courses/mechanical-engineering/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/  
  * https://courses.edx.org/courses/course-v1:TUMx+AUTONAVx+2T2015/courseware/535451105f364d2e852366ed8204cf68/0dfbcaaa4547460f80474a0918a70016/
@@ -49,7 +49,8 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
  * http://ocw.mit.edu/courses/aeronautics-and-astronautics/
  * https://github.com/barbagroup/AeroPython  
  * http://www.handbook.unsw.edu.au/undergraduate/courses/2015/AERO3410.html
-  * https://www.youtube.com/channel/UCCDa0i043Cr0hVJAL_vFeQA
+ * https://www.youtube.com/channel/UCCDa0i043Cr0hVJAL_vFeQA
+ * http://www.colorado.edu/engineering/CAS/courses.d/AFEM.d/
 
 ### webinars / videos
 * https://structures.aero/webinars/
