@@ -8,6 +8,10 @@ to see who edited a windows file last, check ```owner```
 
 - - - -
 
+# Excel hotkeys
+select row and insert row = shift+space and ctrl+ +
+select column and insert column = ctrl+space and ctrl+ +
+
 # Windows Search
 
 
