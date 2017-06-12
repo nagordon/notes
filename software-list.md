@@ -26,6 +26,7 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
  * http://tbc-python.fossee.in/book-details/381/
  * http://www.continuummechanics.org/
  * http://en.cadec-online.com/Default.aspx
+ * http://www.hexcel.com/Resources/Calculators
 
 ### aero
  * http://www.openvsp.org/
