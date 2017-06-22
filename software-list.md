@@ -93,6 +93,7 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
  * http://justinablack.com/pycalculix/  
  * https://github.com/SteveDoyle2/pynastran/wiki/GUI  
  * http://felt.sourceforge.net/
+ * http://www.robertschneiders.de/meshgeneration/software.html
 
 ### Other FEM
  * http://www.roshaz.com/downloads.html  
