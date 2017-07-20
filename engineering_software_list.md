@@ -29,6 +29,7 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
  * http://www.hexcel.com/Resources/Calculators
 
 ### aero
+ * http://adl-public.stanford.edu/docs/display/SUave/SUave+Home
  * http://www.openvsp.org/
  * https://github.com/TMacquart/OptiBLESS
  * https://femci.gsfc.nasa.gov/hcplate/
