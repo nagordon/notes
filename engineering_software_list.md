@@ -35,6 +35,8 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
  * https://femci.gsfc.nasa.gov/hcplate/
  * http://www.xflr5.com
  * http://www.pdas.com/aerosoft.html
+ * http://occ-airconics.readthedocs.io/en/latest/index.html
+ * http://www.aircraftdesign.ca/software/software.html  
 
 ### online courses  
  * https://ocw.mit.edu/courses/aeronautics-and-astronautics/
