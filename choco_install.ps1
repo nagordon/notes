@@ -79,3 +79,5 @@ choco install vagrant
 choco install wget
 choco install calibre
 
+choco install winmerge
+
