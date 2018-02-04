@@ -31,6 +31,23 @@ CAT AND "A-B-C" AND mouse AND "R*" AND (Upr OR Upper)
 
 ```
 
+#How to create a `.file` or `.folder` on Windows
+
+There are several ways
+
+## 1. Rename
+
+* Create `file.txt`
+* Rename to `.file.`, the last dot will be dropped, you'll have `.file`
+
+Works the same with a file or a directory.
+
+## 2. Command line
+
+File : `echo > .name`  
+Directory :  `mkdir .foldername`
+
+
 # powershell notes
 ```
 # powershell notes
