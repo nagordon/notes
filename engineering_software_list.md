@@ -27,6 +27,7 @@ Some handy places to look are [sourceforge](http://sourceforge.net/) and [github
  * http://www.continuummechanics.org/
  * http://en.cadec-online.com/Default.aspx
  * http://www.hexcel.com/Resources/Calculators
+ * https://www.amesweb.info/Calculators.aspx
 
 ### aero
  * http://adl-public.stanford.edu/docs/display/SUave/SUave+Home
