@@ -17,3 +17,7 @@ HIGH is >3v
 */
 
 
+// PWM/digital pins go from 0-255
+
+// analog pins range from 0-1023
+
