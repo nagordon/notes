@@ -43,3 +43,16 @@ Serial.print("\t output = ");
 Serial.println(outputValue); // prints and adds carriage return
 Serial.print("\n"); // carriage return
 
+
+/* for plotting
+
+When you call Serial.println(value), the Serial Plotter will put that 
+variable on the plot. The Y-Axis of the plot auto-resizes. 
+If you want to plot multiple variables, you'll need a Serial.println(value)
+call for each of the variables, separated by a Serial.print(" ") or Serial.print("\t"):
+
+Serial.print(variable1);
+Serial.print(" ");
+Serial.println(variable2);
+
+*/
