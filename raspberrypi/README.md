@@ -67,6 +67,15 @@ force_turbo=0
 gpu_mem=16 #set to the amount of memory  you would like the gpu to consume
 ```
 
+### reset or set password
+```bash
+# to attempt to set the password
+sudo passwd
+
+you can also set it in 
+sudo raspi-config
+```
+
 ### set threshold for dynamic overclocking (60% utilization in example)
 ```bash
 60 > /sys/devices/system/cpu/cpufreq/ondemand/up_threshold
